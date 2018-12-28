@@ -1,0 +1,21 @@
+_G.NC = not _G.NC
+
+local pos = game:GetService('Players').LocalPlayer.Character.LowerTorso.Position.Y
+
+if _G.InitNC ~= true then
+    _G.NCFunc = function(part)
+        if _G.NC then
+            if part.Position.Y > pos then
+                part.CanCollide = false
+            end
+        end
+    end
+
+    _G.InitNC = true
+end
+
+if _G.NC and _G.NCFunc ~= nil then
+    game:GetService('Players').LocalPlayer.Character.Humanoid.Touched:connect(_G.NCFunc)
+end
+
+#TEAMOUTWITT Subscribe for more mods! #ToastySloth

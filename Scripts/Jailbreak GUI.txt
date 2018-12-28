@@ -1,0 +1,3547 @@
+-- Objects
+
+local Motherboard = Instance.new("ScreenGui")
+local BypassJailbreakGUI = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TryingToBypass = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local MainGUI = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local Teleporting = Instance.new("TextButton")
+local LocalPlayerFunctions = Instance.new("TextButton")
+local CreditsButton = Instance.new("TextButton")
+local TeleportsGUI = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local GoTo = Instance.new("TextButton")
+local BankVault = Instance.new("TextButton")
+local BankFront = Instance.new("TextButton")
+local sframe = Instance.new("ScrollingFrame")
+local SPlayer = Instance.new("TextLabel")
+local JewelryIn = Instance.new("TextButton")
+local JewelryOut = Instance.new("TextButton")
+local CrimBase2 = Instance.new("TextButton")
+local CustomTP1 = Instance.new("TextButton")
+local PoliceHQ2 = Instance.new("TextButton")
+local CrimBase1 = Instance.new("TextButton")
+local PoliceHQ1 = Instance.new("TextButton")
+local Prison = Instance.new("TextButton")
+local ClickTP = Instance.new("TextButton")
+local Back1 = Instance.new("TextButton")
+local Garage = Instance.new("TextButton")
+local DonutShop = Instance.new("TextButton")
+local CustomTP2 = Instance.new("TextButton")
+local GasStation = Instance.new("TextButton")
+local CloseButton1 = Instance.new("TextButton")
+local LocalPlayerGUI = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local InfiniteAmmo = Instance.new("TextButton")
+local Noclipp = Instance.new("TextButton")
+local RemoveAllDoorsAndLasers = Instance.new("TextButton")
+local Back2 = Instance.new("TextButton")
+local VehichleSpeed = Instance.new("TextButton")
+local WalkSpeed1 = Instance.new("TextButton")
+local Gravity1 = Instance.new("TextButton")
+local JumpPower1 = Instance.new("TextButton")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local GodMode1 = Instance.new("TextButton")
+local Coordinates = Instance.new("TextButton")
+local Btools = Instance.new("TextButton")
+local CloseButton2 = Instance.new("TextButton")
+local SpawningGUI = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local AK47 = Instance.new("TextButton")
+local Flashlight = Instance.new("TextButton")
+local PolicePants = Instance.new("TextButton")
+local Back8 = Instance.new("TextButton")
+local Pistol = Instance.new("TextButton")
+local PoliceShirt = Instance.new("TextButton")
+local PoliceHat = Instance.new("TextButton")
+local M4A4 = Instance.new("TextButton")
+local Shotgun = Instance.new("TextButton")
+local CloseButton8 = Instance.new("TextButton")
+local SWATMask = Instance.new("TextButton")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local SWATShirt = Instance.new("TextButton")
+local SWATPants = Instance.new("TextButton")
+local SWATHat = Instance.new("TextButton")
+local Spawning = Instance.new("TextButton")
+local CloseButton = Instance.new("TextButton")
+local FastTravelGUI = Instance.new("Frame")
+local FastTravelLabel = Instance.new("TextLabel")
+local FastCarTeleporting = Instance.new("TextButton")
+local FastLocalPlayer = Instance.new("TextButton")
+local FastCredits = Instance.new("TextButton")
+local FastGame = Instance.new("TextButton")
+local FastTeleport = Instance.new("TextButton")
+local FastSettings = Instance.new("TextButton")
+local FastSpawning = Instance.new("TextButton")
+local CarTeleporting = Instance.new("TextButton")
+local FastTravel = Instance.new("TextButton")
+local SettingsGUI = Instance.new("Frame")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local Back6 = Instance.new("TextButton")
+local Transparent1 = Instance.new("TextButton")
+local TextLabel_23 = Instance.new("TextLabel")
+local Transparent2 = Instance.new("TextButton")
+local TextLabel_24 = Instance.new("TextLabel")
+local JewelryKey = Instance.new("TextButton")
+local CrimBaseKey = Instance.new("TextButton")
+local BankKey = Instance.new("TextButton")
+local JewelryKeyBox = Instance.new("TextBox")
+local CrimBaseKeyBox = Instance.new("TextBox")
+local BankKeyBox = Instance.new("TextBox")
+local CloseButton6 = Instance.new("TextButton")
+local CustomTransparency = Instance.new("TextBox")
+local TextLabel_25 = Instance.new("TextLabel")
+local SetCustomTransparency = Instance.new("TextButton")
+local CreditsGUI = Instance.new("Frame")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel_28 = Instance.new("TextLabel")
+local Back4 = Instance.new("TextButton")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+local TextLabel_31 = Instance.new("TextLabel")
+local TextLabel_32 = Instance.new("TextLabel")
+local CloseButton4 = Instance.new("TextButton")
+local TextLabel_33 = Instance.new("TextLabel")
+local TextLabel_34 = Instance.new("TextLabel")
+local TextLabel_35 = Instance.new("TextLabel")
+local GameFunctions = Instance.new("TextButton")
+local CarTeleportingGUI = Instance.new("Frame")
+local TextLabel_36 = Instance.new("TextLabel")
+local TextLabel_37 = Instance.new("TextLabel")
+local TextLabel_38 = Instance.new("TextLabel")
+local Bugatti = Instance.new("TextButton")
+local Lambo = Instance.new("TextButton")
+local CloseButton5 = Instance.new("TextButton")
+local Back5 = Instance.new("TextButton")
+local SWATVan = Instance.new("TextButton")
+local DuneBuggy = Instance.new("TextButton")
+local Porsche = Instance.new("TextButton")
+local DirtBike = Instance.new("TextButton")
+local Tesla3 = Instance.new("TextButton")
+local PickUpTruck = Instance.new("TextButton")
+local MiniCooper = Instance.new("TextButton")
+local Camaro = Instance.new("TextButton")
+local PoliceCar = Instance.new("TextButton")
+local Settings = Instance.new("TextButton")
+local GameGUI = Instance.new("Frame")
+local TextLabel_39 = Instance.new("TextLabel")
+local TextLabel_40 = Instance.new("TextLabel")
+local TextLabel_41 = Instance.new("TextLabel")
+local TpToMoney = Instance.new("TextButton")
+local SpamArrest = Instance.new("TextButton")
+local Back3 = Instance.new("TextButton")
+local CloseButton3 = Instance.new("TextButton")
+local Keycard = Instance.new("TextButton")
+local AnnoyServer = Instance.new("TextButton")
+local StopAnnoy = Instance.new("TextButton")
+local Giveaways = Instance.new("TextButton")
+local GiveawayGUI = Instance.new("Frame")
+local TextLabel_42 = Instance.new("TextLabel")
+local TextLabel_43 = Instance.new("TextLabel")
+local TextLabel_44 = Instance.new("TextLabel")
+local Back7 = Instance.new("TextButton")
+local CloseButton7 = Instance.new("TextButton")
+local TextLabel_45 = Instance.new("TextLabel")
+local TextLabel_46 = Instance.new("TextLabel")
+local TextLabel_47 = Instance.new("TextLabel")
+local TextLabel_48 = Instance.new("TextLabel")
+local TextLabel_49 = Instance.new("TextLabel")
+local OpenGUI = Instance.new("Frame")
+local OpenButton = Instance.new("TextButton")
+local ChangeLogGUI = Instance.new("Frame")
+local TextLabel_50 = Instance.new("TextLabel")
+local TextLabel_51 = Instance.new("TextLabel")
+local TextLabel_52 = Instance.new("TextLabel")
+local TextLabel_53 = Instance.new("TextLabel")
+local TextLabel_54 = Instance.new("TextLabel")
+local TextLabel_55 = Instance.new("TextLabel")
+local TextLabel_56 = Instance.new("TextLabel")
+local TextLabel_57 = Instance.new("TextLabel")
+local ChangeLogClose = Instance.new("TextButton")
+local TextLabel_58 = Instance.new("TextLabel")
+local JNotifierOpen = Instance.new("Frame")
+local TextLabel_59 = Instance.new("TextLabel")
+local GotoJewelry = Instance.new("TextButton")
+local BNotifierOpen = Instance.new("Frame")
+local TextLabel_60 = Instance.new("TextLabel")
+local GotoBank = Instance.new("TextButton")
+local val = Instance.new("ObjectValue", sframe)
+local StarterGui = game:GetService('StarterGui')
+
+-- Properties
+
+Motherboard.Name = "Motherboard"
+Motherboard.Parent = game.CoreGui
+
+BypassJailbreakGUI.Name = "BypassJailbreakGUI"
+BypassJailbreakGUI.Parent = Motherboard
+BypassJailbreakGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+BypassJailbreakGUI.BorderSizePixel = 0
+BypassJailbreakGUI.Position = UDim2.new(0, 835, 0, -331)
+BypassJailbreakGUI.Size = UDim2.new(0, 250, 0, 250)
+
+TextLabel.Parent = BypassJailbreakGUI
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0, 62, 0, 0)
+TextLabel.Size = UDim2.new(0, 127, 0, 31)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.FontSize = Enum.FontSize.Size24
+TextLabel.Text = "Unjailbreak"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 20
+
+TryingToBypass.Name = "TryingToBypass"
+TryingToBypass.Parent = BypassJailbreakGUI
+TryingToBypass.BackgroundColor3 = Color3.new(1, 1, 1)
+TryingToBypass.BackgroundTransparency = 1
+TryingToBypass.Position = UDim2.new(0, 62, 0, 108)
+TryingToBypass.Size = UDim2.new(0, 127, 0, 34)
+TryingToBypass.Font = Enum.Font.Cartoon
+TryingToBypass.FontSize = Enum.FontSize.Size24
+TryingToBypass.Text = "Trying To Bypass Jailbreak"
+TryingToBypass.TextColor3 = Color3.new(1, 1, 1)
+TryingToBypass.TextSize = 20
+
+TextLabel_2.Parent = BypassJailbreakGUI
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.Position = UDim2.new(0, 62, 0, 196)
+TextLabel_2.Size = UDim2.new(0, 127, 0, 54)
+TextLabel_2.Font = Enum.Font.Cartoon
+TextLabel_2.FontSize = Enum.FontSize.Size24
+TextLabel_2.Text = "Created By Unlisting"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 20
+
+TextLabel_3.Parent = BypassJailbreakGUI
+TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.Position = UDim2.new(0, 210, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_3.Font = Enum.Font.Cartoon
+TextLabel_3.FontSize = Enum.FontSize.Size24
+TextLabel_3.Text = "v0.6"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextSize = 20
+
+MainGUI.Name = "MainGUI"
+MainGUI.Parent = Motherboard
+MainGUI.Active = true
+MainGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+MainGUI.BorderSizePixel = 0
+MainGUI.Draggable = true
+MainGUI.Position = UDim2.new(0, 708, 0, 1300)
+MainGUI.Selectable = true
+MainGUI.Size = UDim2.new(0, 505, 0, 361)
+
+TextLabel_4.Parent = MainGUI
+TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.Position = UDim2.new(0, 189, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_4.Font = Enum.Font.Cartoon
+TextLabel_4.FontSize = Enum.FontSize.Size24
+TextLabel_4.Text = "Unjailbreak"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextSize = 20
+
+TextLabel_5.Parent = MainGUI
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.Position = UDim2.new(0, 189, 0, 333)
+TextLabel_5.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_5.Font = Enum.Font.Cartoon
+TextLabel_5.FontSize = Enum.FontSize.Size24
+TextLabel_5.Text = "Created By Unlisting"
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextSize = 20
+
+TextLabel_6.Parent = MainGUI
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.Position = UDim2.new(0, 465, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_6.Font = Enum.Font.Cartoon
+TextLabel_6.FontSize = Enum.FontSize.Size24
+TextLabel_6.Text = "v0.6"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextSize = 20
+
+Teleporting.Name = "Teleporting"
+Teleporting.Parent = MainGUI
+Teleporting.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Teleporting.BorderSizePixel = 0
+Teleporting.Position = UDim2.new(0, 167, 0, 50)
+Teleporting.Size = UDim2.new(0, 170, 0, 37)
+Teleporting.Font = Enum.Font.Cartoon
+Teleporting.FontSize = Enum.FontSize.Size24
+Teleporting.Text = "Teleporting"
+Teleporting.TextSize = 20
+
+LocalPlayerFunctions.Name = "LocalPlayerFunctions"
+LocalPlayerFunctions.Parent = MainGUI
+LocalPlayerFunctions.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+LocalPlayerFunctions.BorderSizePixel = 0
+LocalPlayerFunctions.Position = UDim2.new(0, 167, 0, 140)
+LocalPlayerFunctions.Size = UDim2.new(0, 170, 0, 37)
+LocalPlayerFunctions.Font = Enum.Font.Cartoon
+LocalPlayerFunctions.FontSize = Enum.FontSize.Size24
+LocalPlayerFunctions.Text = "Local Player"
+LocalPlayerFunctions.TextSize = 20
+
+CreditsButton.Name = "CreditsButton"
+CreditsButton.Parent = MainGUI
+CreditsButton.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CreditsButton.BorderSizePixel = 0
+CreditsButton.Position = UDim2.new(0, 167, 0, 275)
+CreditsButton.Size = UDim2.new(0, 170, 0, 37)
+CreditsButton.Font = Enum.Font.Cartoon
+CreditsButton.FontSize = Enum.FontSize.Size24
+CreditsButton.Text = "Credits"
+CreditsButton.TextSize = 20
+
+TeleportsGUI.Name = "TeleportsGUI"
+TeleportsGUI.Parent = MainGUI
+TeleportsGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+TeleportsGUI.BorderSizePixel = 0
+TeleportsGUI.Size = UDim2.new(0, 505, 0, 361)
+TeleportsGUI.Visible = false
+
+TextLabel_7.Parent = TeleportsGUI
+TextLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_7.BackgroundTransparency = 1
+TextLabel_7.Position = UDim2.new(0, 189, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_7.Font = Enum.Font.Cartoon
+TextLabel_7.FontSize = Enum.FontSize.Size24
+TextLabel_7.Text = "Unjailbreak"
+TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_7.TextSize = 20
+
+TextLabel_8.Parent = TeleportsGUI
+TextLabel_8.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_8.BackgroundTransparency = 1
+TextLabel_8.Position = UDim2.new(0, 189, 0, 333)
+TextLabel_8.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_8.Font = Enum.Font.Cartoon
+TextLabel_8.FontSize = Enum.FontSize.Size24
+TextLabel_8.Text = "Created By Unlisting"
+TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_8.TextSize = 20
+
+TextLabel_9.Parent = TeleportsGUI
+TextLabel_9.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_9.BackgroundTransparency = 1
+TextLabel_9.Position = UDim2.new(0, 465, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_9.Font = Enum.Font.Cartoon
+TextLabel_9.FontSize = Enum.FontSize.Size24
+TextLabel_9.Text = "v0.6"
+TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_9.TextSize = 20
+
+GoTo.Name = "GoTo"
+GoTo.Parent = TeleportsGUI
+GoTo.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+GoTo.BorderSizePixel = 0
+GoTo.Position = UDim2.new(0, 376, 0, 322)
+GoTo.Size = UDim2.new(0, 83, 0, 24)
+GoTo.Font = Enum.Font.Cartoon
+GoTo.FontSize = Enum.FontSize.Size24
+GoTo.Text = "Goto"
+GoTo.TextColor3 = Color3.new(1, 1, 0)
+GoTo.TextSize = 20
+
+BankVault.Name = "BankVault"
+BankVault.Parent = TeleportsGUI
+BankVault.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+BankVault.BorderSizePixel = 0
+BankVault.Position = UDim2.new(0, 27, 0, 50)
+BankVault.Size = UDim2.new(0, 90, 0, 25)
+BankVault.Font = Enum.Font.Cartoon
+BankVault.FontSize = Enum.FontSize.Size18
+BankVault.Text = "Bank Vault"
+BankVault.TextColor3 = Color3.new(1, 1, 0)
+BankVault.TextSize = 17
+
+BankFront.Name = "BankFront"
+BankFront.Parent = TeleportsGUI
+BankFront.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+BankFront.BorderSizePixel = 0
+BankFront.Position = UDim2.new(0, 132, 0, 50)
+BankFront.Size = UDim2.new(0, 90, 0, 25)
+BankFront.Font = Enum.Font.Cartoon
+BankFront.FontSize = Enum.FontSize.Size18
+BankFront.Text = "Bank Front"
+BankFront.TextColor3 = Color3.new(1, 1, 0)
+BankFront.TextSize = 17
+
+sframe.Name = "sframe"
+sframe.Parent = TeleportsGUI
+sframe.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+sframe.BorderSizePixel = 0
+sframe.LayoutOrder = 1
+sframe.Position = UDim2.new(0, 301, 0, 43)
+sframe.Selectable = false
+sframe.Size = UDim2.new(0, 200, 0, 220)
+sframe.ScrollBarThickness = 1
+
+SPlayer.Name = "SPlayer"
+SPlayer.Parent = TeleportsGUI
+SPlayer.BackgroundColor3 = Color3.new(1, 1, 1)
+SPlayer.BackgroundTransparency = 1
+SPlayer.Position = UDim2.new(0, 324, 0, 279)
+SPlayer.Size = UDim2.new(0, 86, 0, 23)
+SPlayer.Font = Enum.Font.Cartoon
+SPlayer.FontSize = Enum.FontSize.Size18
+SPlayer.Text = "Player:"
+SPlayer.TextColor3 = Color3.new(1, 1, 1)
+SPlayer.TextSize = 16
+
+JewelryIn.Name = "JewelryIn"
+JewelryIn.Parent = TeleportsGUI
+JewelryIn.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+JewelryIn.BorderSizePixel = 0
+JewelryIn.Position = UDim2.new(0, 27, 0, 85)
+JewelryIn.Size = UDim2.new(0, 90, 0, 25)
+JewelryIn.Font = Enum.Font.Cartoon
+JewelryIn.FontSize = Enum.FontSize.Size18
+JewelryIn.Text = "Jewelry(In)"
+JewelryIn.TextColor3 = Color3.new(1, 1, 0)
+JewelryIn.TextSize = 17
+
+JewelryOut.Name = "JewelryOut"
+JewelryOut.Parent = TeleportsGUI
+JewelryOut.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+JewelryOut.BorderSizePixel = 0
+JewelryOut.Position = UDim2.new(0, 132, 0, 85)
+JewelryOut.Size = UDim2.new(0, 90, 0, 25)
+JewelryOut.Font = Enum.Font.Cartoon
+JewelryOut.FontSize = Enum.FontSize.Size18
+JewelryOut.Text = "Jewelry(Out)"
+JewelryOut.TextColor3 = Color3.new(1, 1, 0)
+JewelryOut.TextSize = 17
+
+CrimBase2.Name = "CrimBase2"
+CrimBase2.Parent = TeleportsGUI
+CrimBase2.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CrimBase2.BorderSizePixel = 0
+CrimBase2.Position = UDim2.new(0, 132, 0, 120)
+CrimBase2.Size = UDim2.new(0, 90, 0, 25)
+CrimBase2.Font = Enum.Font.Cartoon
+CrimBase2.FontSize = Enum.FontSize.Size18
+CrimBase2.Text = "Crim Base 2"
+CrimBase2.TextColor3 = Color3.new(1, 1, 0)
+CrimBase2.TextSize = 17
+CrimBase2.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+CustomTP1.Name = "CustomTP1"
+CustomTP1.Parent = TeleportsGUI
+CustomTP1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CustomTP1.BorderSizePixel = 0
+CustomTP1.Position = UDim2.new(0, 27, 0, 260)
+CustomTP1.Size = UDim2.new(0, 90, 0, 25)
+CustomTP1.Font = Enum.Font.Cartoon
+CustomTP1.FontSize = Enum.FontSize.Size18
+CustomTP1.Text = "CustomTP 1"
+CustomTP1.TextColor3 = Color3.new(1, 1, 0)
+CustomTP1.TextSize = 17
+
+PoliceHQ2.Name = "PoliceHQ2"
+PoliceHQ2.Parent = TeleportsGUI
+PoliceHQ2.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+PoliceHQ2.BorderSizePixel = 0
+PoliceHQ2.Position = UDim2.new(0, 132, 0, 155)
+PoliceHQ2.Size = UDim2.new(0, 90, 0, 25)
+PoliceHQ2.Font = Enum.Font.Cartoon
+PoliceHQ2.FontSize = Enum.FontSize.Size18
+PoliceHQ2.Text = "Police HQ 2"
+PoliceHQ2.TextColor3 = Color3.new(1, 1, 0)
+PoliceHQ2.TextSize = 17
+PoliceHQ2.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+CrimBase1.Name = "CrimBase1"
+CrimBase1.Parent = TeleportsGUI
+CrimBase1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CrimBase1.BorderSizePixel = 0
+CrimBase1.Position = UDim2.new(0, 27, 0, 120)
+CrimBase1.Size = UDim2.new(0, 90, 0, 25)
+CrimBase1.Font = Enum.Font.Cartoon
+CrimBase1.FontSize = Enum.FontSize.Size18
+CrimBase1.Text = "Crim Base 1"
+CrimBase1.TextColor3 = Color3.new(1, 1, 0)
+CrimBase1.TextSize = 17
+
+PoliceHQ1.Name = "PoliceHQ1"
+PoliceHQ1.Parent = TeleportsGUI
+PoliceHQ1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+PoliceHQ1.BorderSizePixel = 0
+PoliceHQ1.Position = UDim2.new(0, 27, 0, 155)
+PoliceHQ1.Size = UDim2.new(0, 90, 0, 25)
+PoliceHQ1.Font = Enum.Font.Cartoon
+PoliceHQ1.FontSize = Enum.FontSize.Size18
+PoliceHQ1.Text = "Police HQ 1"
+PoliceHQ1.TextColor3 = Color3.new(1, 1, 0)
+PoliceHQ1.TextSize = 17
+
+Prison.Name = "Prison"
+Prison.Parent = TeleportsGUI
+Prison.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Prison.BorderSizePixel = 0
+Prison.Position = UDim2.new(0, 132, 0, 190)
+Prison.Size = UDim2.new(0, 90, 0, 25)
+Prison.Font = Enum.Font.Cartoon
+Prison.FontSize = Enum.FontSize.Size18
+Prison.Text = "Prison"
+Prison.TextColor3 = Color3.new(1, 1, 0)
+Prison.TextSize = 17
+Prison.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+ClickTP.Name = "ClickTP"
+ClickTP.Parent = TeleportsGUI
+ClickTP.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+ClickTP.BorderSizePixel = 0
+ClickTP.Position = UDim2.new(0, 38, 0, 322)
+ClickTP.Size = UDim2.new(0, 90, 0, 25)
+ClickTP.Font = Enum.Font.Cartoon
+ClickTP.FontSize = Enum.FontSize.Size18
+ClickTP.Text = "ClickTP"
+ClickTP.TextColor3 = Color3.new(1, 1, 0)
+ClickTP.TextSize = 17
+ClickTP.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+Back1.Name = "Back1"
+Back1.Parent = TeleportsGUI
+Back1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back1.BackgroundTransparency = 1
+Back1.BorderSizePixel = 0
+Back1.Position = UDim2.new(0, 208, 0, 308)
+Back1.Size = UDim2.new(0, 90, 0, 25)
+Back1.Font = Enum.Font.Cartoon
+Back1.FontSize = Enum.FontSize.Size18
+Back1.Text = "Back"
+Back1.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back1.TextSize = 17
+Back1.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+Garage.Name = "Garage"
+Garage.Parent = TeleportsGUI
+Garage.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Garage.BorderSizePixel = 0
+Garage.Position = UDim2.new(0, 27, 0, 190)
+Garage.Size = UDim2.new(0, 90, 0, 25)
+Garage.Font = Enum.Font.Cartoon
+Garage.FontSize = Enum.FontSize.Size18
+Garage.Text = "Garage"
+Garage.TextColor3 = Color3.new(1, 1, 0)
+Garage.TextSize = 17
+
+DonutShop.Name = "DonutShop"
+DonutShop.Parent = TeleportsGUI
+DonutShop.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+DonutShop.BorderSizePixel = 0
+DonutShop.Position = UDim2.new(0, 132, 0, 225)
+DonutShop.Size = UDim2.new(0, 90, 0, 25)
+DonutShop.Font = Enum.Font.Cartoon
+DonutShop.FontSize = Enum.FontSize.Size18
+DonutShop.Text = "Donut Shop"
+DonutShop.TextColor3 = Color3.new(1, 1, 0)
+DonutShop.TextSize = 17
+DonutShop.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+CustomTP2.Name = "CustomTP2"
+CustomTP2.Parent = TeleportsGUI
+CustomTP2.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CustomTP2.BorderSizePixel = 0
+CustomTP2.Position = UDim2.new(0, 132, 0, 260)
+CustomTP2.Size = UDim2.new(0, 90, 0, 25)
+CustomTP2.Font = Enum.Font.Cartoon
+CustomTP2.FontSize = Enum.FontSize.Size18
+CustomTP2.Text = "CustomTP2"
+CustomTP2.TextColor3 = Color3.new(1, 1, 0)
+CustomTP2.TextSize = 17
+CustomTP2.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+GasStation.Name = "GasStation"
+GasStation.Parent = TeleportsGUI
+GasStation.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+GasStation.BorderSizePixel = 0
+GasStation.Position = UDim2.new(0, 27, 0, 225)
+GasStation.Size = UDim2.new(0, 90, 0, 25)
+GasStation.Font = Enum.Font.Cartoon
+GasStation.FontSize = Enum.FontSize.Size18
+GasStation.Text = "Gas Station"
+GasStation.TextColor3 = Color3.new(1, 1, 0)
+GasStation.TextSize = 17
+
+CloseButton1.Name = "CloseButton1"
+CloseButton1.Parent = TeleportsGUI
+CloseButton1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CloseButton1.BackgroundTransparency = 1
+CloseButton1.BorderSizePixel = 0
+CloseButton1.Position = UDim2.new(0, 322, 0, 0)
+CloseButton1.Size = UDim2.new(0, 127, 0, 31)
+CloseButton1.Font = Enum.Font.Cartoon
+CloseButton1.FontSize = Enum.FontSize.Size24
+CloseButton1.Text = "Close"
+CloseButton1.TextColor3 = Color3.new(0, 0.666667, 1)
+CloseButton1.TextSize = 20
+
+LocalPlayerGUI.Name = "LocalPlayerGUI"
+LocalPlayerGUI.Parent = MainGUI
+LocalPlayerGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+LocalPlayerGUI.BorderSizePixel = 0
+LocalPlayerGUI.Size = UDim2.new(0, 505, 0, 361)
+LocalPlayerGUI.Visible = false
+
+TextLabel_10.Parent = LocalPlayerGUI
+TextLabel_10.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_10.BackgroundTransparency = 1
+TextLabel_10.Position = UDim2.new(0, 189, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_10.Font = Enum.Font.Cartoon
+TextLabel_10.FontSize = Enum.FontSize.Size24
+TextLabel_10.Text = "Unjailbreak"
+TextLabel_10.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_10.TextSize = 20
+
+TextLabel_11.Parent = LocalPlayerGUI
+TextLabel_11.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_11.BackgroundTransparency = 1
+TextLabel_11.Position = UDim2.new(0, 189, 0, 333)
+TextLabel_11.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_11.Font = Enum.Font.Cartoon
+TextLabel_11.FontSize = Enum.FontSize.Size24
+TextLabel_11.Text = "Created By Unlisting"
+TextLabel_11.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_11.TextSize = 20
+
+TextLabel_12.Parent = LocalPlayerGUI
+TextLabel_12.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_12.BackgroundTransparency = 1
+TextLabel_12.Position = UDim2.new(0, 465, 0, 0)
+TextLabel_12.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_12.Font = Enum.Font.Cartoon
+TextLabel_12.FontSize = Enum.FontSize.Size24
+TextLabel_12.Text = "v0.6"
+TextLabel_12.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_12.TextSize = 20
+
+InfiniteAmmo.Name = "InfiniteAmmo"
+InfiniteAmmo.Parent = LocalPlayerGUI
+InfiniteAmmo.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+InfiniteAmmo.BorderSizePixel = 0
+InfiniteAmmo.Position = UDim2.new(0, 42, 0, 76)
+InfiniteAmmo.Size = UDim2.new(0, 120, 0, 30)
+InfiniteAmmo.Font = Enum.Font.Cartoon
+InfiniteAmmo.FontSize = Enum.FontSize.Size24
+InfiniteAmmo.Text = "Infinite Ammo"
+InfiniteAmmo.TextColor3 = Color3.new(1, 1, 0)
+InfiniteAmmo.TextSize = 20
+
+Noclipp.Name = "Noclipp"
+Noclipp.Parent = LocalPlayerGUI
+Noclipp.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Noclipp.BorderSizePixel = 0
+Noclipp.Position = UDim2.new(0, 192, 0, 151)
+Noclipp.Size = UDim2.new(0, 120, 0, 30)
+Noclipp.Font = Enum.Font.Cartoon
+Noclipp.FontSize = Enum.FontSize.Size24
+Noclipp.Text = "No Clip OFF"
+Noclipp.TextColor3 = Color3.new(1, 1, 0)
+Noclipp.TextSize = 20
+
+RemoveAllDoorsAndLasers.Name = "RemoveAllDoorsAndLasers"
+RemoveAllDoorsAndLasers.Parent = LocalPlayerGUI
+RemoveAllDoorsAndLasers.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+RemoveAllDoorsAndLasers.BorderSizePixel = 0
+RemoveAllDoorsAndLasers.Position = UDim2.new(0, 192, 0, 231)
+RemoveAllDoorsAndLasers.Size = UDim2.new(0, 120, 0, 30)
+RemoveAllDoorsAndLasers.Font = Enum.Font.Cartoon
+RemoveAllDoorsAndLasers.FontSize = Enum.FontSize.Size24
+RemoveAllDoorsAndLasers.Text = "Remove All"
+RemoveAllDoorsAndLasers.TextColor3 = Color3.new(1, 1, 0)
+RemoveAllDoorsAndLasers.TextSize = 20
+
+Back2.Name = "Back2"
+Back2.Parent = LocalPlayerGUI
+Back2.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back2.BackgroundTransparency = 1
+Back2.BorderSizePixel = 0
+Back2.Position = UDim2.new(0, 208, 0, 308)
+Back2.Size = UDim2.new(0, 90, 0, 25)
+Back2.Font = Enum.Font.Cartoon
+Back2.FontSize = Enum.FontSize.Size18
+Back2.Text = "Back"
+Back2.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back2.TextSize = 17
+Back2.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+VehichleSpeed.Name = "VehichleSpeed"
+VehichleSpeed.Parent = LocalPlayerGUI
+VehichleSpeed.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+VehichleSpeed.BorderSizePixel = 0
+VehichleSpeed.Position = UDim2.new(0, 42, 0, 151)
+VehichleSpeed.Size = UDim2.new(0, 120, 0, 30)
+VehichleSpeed.Font = Enum.Font.Cartoon
+VehichleSpeed.FontSize = Enum.FontSize.Size24
+VehichleSpeed.Text = "Vehichle Speed"
+VehichleSpeed.TextColor3 = Color3.new(1, 1, 0)
+VehichleSpeed.TextSize = 20
+
+WalkSpeed1.Name = "WalkSpeed1"
+WalkSpeed1.Parent = LocalPlayerGUI
+WalkSpeed1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+WalkSpeed1.BorderSizePixel = 0
+WalkSpeed1.Position = UDim2.new(0, 342, 0, 151)
+WalkSpeed1.Size = UDim2.new(0, 120, 0, 30)
+WalkSpeed1.Font = Enum.Font.Cartoon
+WalkSpeed1.FontSize = Enum.FontSize.Size24
+WalkSpeed1.Text = "FastWalk"
+WalkSpeed1.TextColor3 = Color3.new(1, 1, 0)
+WalkSpeed1.TextSize = 20
+
+Gravity1.Name = "Gravity1"
+Gravity1.Parent = LocalPlayerGUI
+Gravity1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Gravity1.BorderSizePixel = 0
+Gravity1.Position = UDim2.new(0, 42, 0, 231)
+Gravity1.Size = UDim2.new(0, 120, 0, 30)
+Gravity1.Font = Enum.Font.Cartoon
+Gravity1.FontSize = Enum.FontSize.Size24
+Gravity1.Text = "Low Gravity"
+Gravity1.TextColor3 = Color3.new(1, 1, 0)
+Gravity1.TextSize = 20
+
+JumpPower1.Name = "JumpPower1"
+JumpPower1.Parent = LocalPlayerGUI
+JumpPower1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+JumpPower1.BorderSizePixel = 0
+JumpPower1.Position = UDim2.new(0, 342, 0, 231)
+JumpPower1.Size = UDim2.new(0, 120, 0, 30)
+JumpPower1.Font = Enum.Font.Cartoon
+JumpPower1.FontSize = Enum.FontSize.Size24
+JumpPower1.Text = "HighJump"
+JumpPower1.TextColor3 = Color3.new(1, 1, 0)
+JumpPower1.TextSize = 20
+
+TextLabel_13.Parent = LocalPlayerGUI
+TextLabel_13.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_13.BackgroundTransparency = 1
+TextLabel_13.Position = UDim2.new(0, 189, 0, 268)
+TextLabel_13.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_13.Font = Enum.Font.Cartoon
+TextLabel_13.FontSize = Enum.FontSize.Size24
+TextLabel_13.Text = "Click Low Gravity And HighJump Again To Reverse"
+TextLabel_13.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_13.TextSize = 20
+
+TextLabel_14.Parent = LocalPlayerGUI
+TextLabel_14.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_14.BackgroundTransparency = 1
+TextLabel_14.Position = UDim2.new(0, 338, 0, 181)
+TextLabel_14.Size = UDim2.new(0, 127, 0, 25)
+TextLabel_14.Font = Enum.Font.Cartoon
+TextLabel_14.FontSize = Enum.FontSize.Size24
+TextLabel_14.Text = "Press \"Q\" To Speed Up"
+TextLabel_14.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_14.TextSize = 20
+
+GodMode1.Name = "GodMode1"
+GodMode1.Parent = LocalPlayerGUI
+GodMode1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+GodMode1.BorderSizePixel = 0
+GodMode1.Position = UDim2.new(0, 192, 0, 76)
+GodMode1.Size = UDim2.new(0, 120, 0, 30)
+GodMode1.Font = Enum.Font.Cartoon
+GodMode1.FontSize = Enum.FontSize.Size24
+GodMode1.Text = "God Mode"
+GodMode1.TextColor3 = Color3.new(1, 1, 0)
+GodMode1.TextSize = 20
+
+Coordinates.Name = "Coordinates"
+Coordinates.Parent = LocalPlayerGUI
+Coordinates.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Coordinates.BorderSizePixel = 0
+Coordinates.Position = UDim2.new(0, 342, 0, 76)
+Coordinates.Size = UDim2.new(0, 120, 0, 30)
+Coordinates.Font = Enum.Font.Cartoon
+Coordinates.FontSize = Enum.FontSize.Size24
+Coordinates.Text = "Coords"
+Coordinates.TextColor3 = Color3.new(1, 1, 0)
+Coordinates.TextSize = 20
+
+Btools.Name = "Btools"
+Btools.Parent = LocalPlayerGUI
+Btools.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Btools.BorderSizePixel = 0
+Btools.Position = UDim2.new(0, 42, 0, 322)
+Btools.Size = UDim2.new(0, 90, 0, 25)
+Btools.Font = Enum.Font.Cartoon
+Btools.FontSize = Enum.FontSize.Size18
+Btools.Text = "Btools"
+Btools.TextColor3 = Color3.new(1, 1, 0)
+Btools.TextSize = 17
+Btools.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+CloseButton2.Name = "CloseButton2"
+CloseButton2.Parent = LocalPlayerGUI
+CloseButton2.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CloseButton2.BackgroundTransparency = 1
+CloseButton2.BorderSizePixel = 0
+CloseButton2.Position = UDim2.new(0, 322, 0, 0)
+CloseButton2.Size = UDim2.new(0, 127, 0, 31)
+CloseButton2.Font = Enum.Font.Cartoon
+CloseButton2.FontSize = Enum.FontSize.Size24
+CloseButton2.Text = "Close"
+CloseButton2.TextColor3 = Color3.new(0, 0.666667, 1)
+CloseButton2.TextSize = 20
+
+SpawningGUI.Name = "SpawningGUI"
+SpawningGUI.Parent = MainGUI
+SpawningGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+SpawningGUI.BorderSizePixel = 0
+SpawningGUI.Size = UDim2.new(0, 505, 0, 361)
+SpawningGUI.Visible = false
+
+TextLabel_15.Parent = SpawningGUI
+TextLabel_15.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_15.BackgroundTransparency = 1
+TextLabel_15.Position = UDim2.new(0, 189, 0, 0)
+TextLabel_15.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_15.Font = Enum.Font.Cartoon
+TextLabel_15.FontSize = Enum.FontSize.Size24
+TextLabel_15.Text = "Unjailbreak"
+TextLabel_15.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_15.TextSize = 20
+
+TextLabel_16.Parent = SpawningGUI
+TextLabel_16.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_16.BackgroundTransparency = 1
+TextLabel_16.Position = UDim2.new(0, 189, 0, 333)
+TextLabel_16.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_16.Font = Enum.Font.Cartoon
+TextLabel_16.FontSize = Enum.FontSize.Size24
+TextLabel_16.Text = "Created By Unlisting"
+TextLabel_16.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_16.TextSize = 20
+
+TextLabel_17.Parent = SpawningGUI
+TextLabel_17.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_17.BackgroundTransparency = 1
+TextLabel_17.Position = UDim2.new(0, 465, 0, 0)
+TextLabel_17.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_17.Font = Enum.Font.Cartoon
+TextLabel_17.FontSize = Enum.FontSize.Size24
+TextLabel_17.Text = "v0.6"
+TextLabel_17.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_17.TextSize = 20
+
+AK47.Name = "AK47"
+AK47.Parent = SpawningGUI
+AK47.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+AK47.BorderSizePixel = 0
+AK47.Position = UDim2.new(0, 42, 0, 76)
+AK47.Size = UDim2.new(0, 120, 0, 30)
+AK47.Font = Enum.Font.Cartoon
+AK47.FontSize = Enum.FontSize.Size24
+AK47.Text = "AK47"
+AK47.TextColor3 = Color3.new(1, 1, 0)
+AK47.TextSize = 20
+
+Flashlight.Name = "Flashlight"
+Flashlight.Parent = SpawningGUI
+Flashlight.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Flashlight.BorderSizePixel = 0
+Flashlight.Position = UDim2.new(0, 192, 0, 120)
+Flashlight.Size = UDim2.new(0, 120, 0, 30)
+Flashlight.Font = Enum.Font.Cartoon
+Flashlight.FontSize = Enum.FontSize.Size24
+Flashlight.Text = "Flashlight"
+Flashlight.TextColor3 = Color3.new(1, 1, 0)
+Flashlight.TextSize = 20
+
+PolicePants.Name = "PolicePants"
+PolicePants.Parent = SpawningGUI
+PolicePants.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+PolicePants.BorderSizePixel = 0
+PolicePants.Position = UDim2.new(0, 192, 0, 200)
+PolicePants.Size = UDim2.new(0, 120, 0, 30)
+PolicePants.Font = Enum.Font.Cartoon
+PolicePants.FontSize = Enum.FontSize.Size24
+PolicePants.Text = "Police Pants"
+PolicePants.TextColor3 = Color3.new(1, 1, 0)
+PolicePants.TextSize = 20
+
+Back8.Name = "Back8"
+Back8.Parent = SpawningGUI
+Back8.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back8.BackgroundTransparency = 1
+Back8.BorderSizePixel = 0
+Back8.Position = UDim2.new(0, 208, 0, 308)
+Back8.Size = UDim2.new(0, 90, 0, 25)
+Back8.Font = Enum.Font.Cartoon
+Back8.FontSize = Enum.FontSize.Size18
+Back8.Text = "Back"
+Back8.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back8.TextSize = 17
+Back8.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+Pistol.Name = "Pistol"
+Pistol.Parent = SpawningGUI
+Pistol.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Pistol.BorderSizePixel = 0
+Pistol.Position = UDim2.new(0, 42, 0, 120)
+Pistol.Size = UDim2.new(0, 120, 0, 30)
+Pistol.Font = Enum.Font.Cartoon
+Pistol.FontSize = Enum.FontSize.Size24
+Pistol.Text = "Pistol"
+Pistol.TextColor3 = Color3.new(1, 1, 0)
+Pistol.TextSize = 20
+
+PoliceShirt.Name = "PoliceShirt"
+PoliceShirt.Parent = SpawningGUI
+PoliceShirt.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+PoliceShirt.BorderSizePixel = 0
+PoliceShirt.Position = UDim2.new(0, 42, 0, 200)
+PoliceShirt.Size = UDim2.new(0, 120, 0, 30)
+PoliceShirt.Font = Enum.Font.Cartoon
+PoliceShirt.FontSize = Enum.FontSize.Size24
+PoliceShirt.Text = "Police Shirt"
+PoliceShirt.TextColor3 = Color3.new(1, 1, 0)
+PoliceShirt.TextSize = 20
+
+PoliceHat.Name = "PoliceHat"
+PoliceHat.Parent = SpawningGUI
+PoliceHat.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+PoliceHat.BorderSizePixel = 0
+PoliceHat.Position = UDim2.new(0, 342, 0, 200)
+PoliceHat.Size = UDim2.new(0, 120, 0, 30)
+PoliceHat.Font = Enum.Font.Cartoon
+PoliceHat.FontSize = Enum.FontSize.Size24
+PoliceHat.Text = "Police Hat"
+PoliceHat.TextColor3 = Color3.new(1, 1, 0)
+PoliceHat.TextSize = 20
+
+M4A4.Name = "M4A4"
+M4A4.Parent = SpawningGUI
+M4A4.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+M4A4.BorderSizePixel = 0
+M4A4.Position = UDim2.new(0, 192, 0, 76)
+M4A4.Size = UDim2.new(0, 120, 0, 30)
+M4A4.Font = Enum.Font.Cartoon
+M4A4.FontSize = Enum.FontSize.Size24
+M4A4.Text = "M4A4"
+M4A4.TextColor3 = Color3.new(1, 1, 0)
+M4A4.TextSize = 20
+
+Shotgun.Name = "Shotgun"
+Shotgun.Parent = SpawningGUI
+Shotgun.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Shotgun.BorderSizePixel = 0
+Shotgun.Position = UDim2.new(0, 342, 0, 76)
+Shotgun.Size = UDim2.new(0, 120, 0, 30)
+Shotgun.Font = Enum.Font.Cartoon
+Shotgun.FontSize = Enum.FontSize.Size24
+Shotgun.Text = "ShotGun"
+Shotgun.TextColor3 = Color3.new(1, 1, 0)
+Shotgun.TextSize = 20
+
+CloseButton8.Name = "CloseButton8"
+CloseButton8.Parent = SpawningGUI
+CloseButton8.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CloseButton8.BackgroundTransparency = 1
+CloseButton8.BorderSizePixel = 0
+CloseButton8.Position = UDim2.new(0, 322, 0, 0)
+CloseButton8.Size = UDim2.new(0, 127, 0, 31)
+CloseButton8.Font = Enum.Font.Cartoon
+CloseButton8.FontSize = Enum.FontSize.Size24
+CloseButton8.Text = "Close"
+CloseButton8.TextColor3 = Color3.new(0, 0.666667, 1)
+CloseButton8.TextSize = 20
+
+SWATMask.Name = "SWATMask"
+SWATMask.Parent = SpawningGUI
+SWATMask.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+SWATMask.BorderSizePixel = 0
+SWATMask.Position = UDim2.new(0, 42, 0, 284)
+SWATMask.Size = UDim2.new(0, 120, 0, 30)
+SWATMask.Font = Enum.Font.Cartoon
+SWATMask.FontSize = Enum.FontSize.Size24
+SWATMask.Text = "SWAT Mask"
+SWATMask.TextColor3 = Color3.new(1, 1, 0)
+SWATMask.TextSize = 20
+
+TextLabel_18.Parent = SpawningGUI
+TextLabel_18.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_18.BackgroundTransparency = 1
+TextLabel_18.Position = UDim2.new(0, 189, 0, 43)
+TextLabel_18.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_18.Font = Enum.Font.Cartoon
+TextLabel_18.FontSize = Enum.FontSize.Size24
+TextLabel_18.Text = "Weapons"
+TextLabel_18.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_18.TextSize = 20
+
+TextLabel_19.Parent = SpawningGUI
+TextLabel_19.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_19.BackgroundTransparency = 1
+TextLabel_19.Position = UDim2.new(0, 189, 0, 167)
+TextLabel_19.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_19.Font = Enum.Font.Cartoon
+TextLabel_19.FontSize = Enum.FontSize.Size24
+TextLabel_19.Text = "Clothing"
+TextLabel_19.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_19.TextSize = 20
+
+SWATShirt.Name = "SWATShirt"
+SWATShirt.Parent = SpawningGUI
+SWATShirt.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+SWATShirt.BorderSizePixel = 0
+SWATShirt.Position = UDim2.new(0, 42, 0, 242)
+SWATShirt.Size = UDim2.new(0, 120, 0, 30)
+SWATShirt.Font = Enum.Font.Cartoon
+SWATShirt.FontSize = Enum.FontSize.Size24
+SWATShirt.Text = "SWAT Shirt"
+SWATShirt.TextColor3 = Color3.new(1, 1, 0)
+SWATShirt.TextSize = 20
+
+SWATPants.Name = "SWATPants"
+SWATPants.Parent = SpawningGUI
+SWATPants.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+SWATPants.BorderSizePixel = 0
+SWATPants.Position = UDim2.new(0, 192, 0, 242)
+SWATPants.Size = UDim2.new(0, 120, 0, 30)
+SWATPants.Font = Enum.Font.Cartoon
+SWATPants.FontSize = Enum.FontSize.Size24
+SWATPants.Text = "SWAT Pants"
+SWATPants.TextColor3 = Color3.new(1, 1, 0)
+SWATPants.TextSize = 20
+
+SWATHat.Name = "SWATHat"
+SWATHat.Parent = SpawningGUI
+SWATHat.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+SWATHat.BorderSizePixel = 0
+SWATHat.Position = UDim2.new(0, 342, 0, 242)
+SWATHat.Size = UDim2.new(0, 120, 0, 30)
+SWATHat.Font = Enum.Font.Cartoon
+SWATHat.FontSize = Enum.FontSize.Size24
+SWATHat.Text = "SWAT Hat"
+SWATHat.TextColor3 = Color3.new(1, 1, 0)
+SWATHat.TextSize = 20
+
+Spawning.Name = "Spawning"
+Spawning.Parent = MainGUI
+Spawning.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Spawning.BorderSizePixel = 0
+Spawning.Position = UDim2.new(0, 167, 0, 230)
+Spawning.Size = UDim2.new(0, 170, 0, 37)
+Spawning.Font = Enum.Font.Cartoon
+Spawning.FontSize = Enum.FontSize.Size24
+Spawning.Text = "Spawning"
+Spawning.TextSize = 20
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = MainGUI
+CloseButton.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CloseButton.BackgroundTransparency = 1
+CloseButton.BorderSizePixel = 0
+CloseButton.Position = UDim2.new(0, 322, 0, 0)
+CloseButton.Size = UDim2.new(0, 127, 0, 31)
+CloseButton.Font = Enum.Font.Cartoon
+CloseButton.FontSize = Enum.FontSize.Size24
+CloseButton.Text = "Close"
+CloseButton.TextColor3 = Color3.new(0, 0.666667, 1)
+CloseButton.TextSize = 20
+
+FastTravelGUI.Name = "FastTravelGUI"
+FastTravelGUI.Parent = MainGUI
+FastTravelGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+FastTravelGUI.BorderSizePixel = 0
+FastTravelGUI.Position = UDim2.new(0, -105, 0, 0)
+
+FastTravelLabel.Name = "FastTravelLabel"
+FastTravelLabel.Parent = FastTravelGUI
+FastTravelLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+FastTravelLabel.BackgroundTransparency = 1
+FastTravelLabel.Size = UDim2.new(0, 100, 0, 30)
+FastTravelLabel.Visible = false
+FastTravelLabel.Font = Enum.Font.Cartoon
+FastTravelLabel.FontSize = Enum.FontSize.Size24
+FastTravelLabel.Text = "Fast Travel"
+FastTravelLabel.TextColor3 = Color3.new(1, 1, 1)
+FastTravelLabel.TextSize = 20
+
+FastCarTeleporting.Name = "FastCarTeleporting"
+FastCarTeleporting.Parent = FastTravelGUI
+FastCarTeleporting.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+FastCarTeleporting.BorderSizePixel = 0
+FastCarTeleporting.Position = UDim2.new(0, 0, 0, 61)
+FastCarTeleporting.Size = UDim2.new(0, 100, 0, 25)
+FastCarTeleporting.Visible = false
+FastCarTeleporting.Font = Enum.Font.Cartoon
+FastCarTeleporting.FontSize = Enum.FontSize.Size24
+FastCarTeleporting.Text = "Car Teleport"
+FastCarTeleporting.TextSize = 20
+
+FastLocalPlayer.Name = "FastLocalPlayer"
+FastLocalPlayer.Parent = FastTravelGUI
+FastLocalPlayer.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+FastLocalPlayer.BorderSizePixel = 0
+FastLocalPlayer.Position = UDim2.new(0, 0, 0, 88)
+FastLocalPlayer.Size = UDim2.new(0, 100, 0, 25)
+FastLocalPlayer.Visible = false
+FastLocalPlayer.Font = Enum.Font.Cartoon
+FastLocalPlayer.FontSize = Enum.FontSize.Size24
+FastLocalPlayer.Text = "Local Player"
+FastLocalPlayer.TextSize = 20
+
+FastCredits.Name = "FastCredits"
+FastCredits.Parent = FastTravelGUI
+FastCredits.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+FastCredits.BorderSizePixel = 0
+FastCredits.Position = UDim2.new(0, 0, 0, 196)
+FastCredits.Size = UDim2.new(0, 100, 0, 25)
+FastCredits.Visible = false
+FastCredits.Font = Enum.Font.Cartoon
+FastCredits.FontSize = Enum.FontSize.Size24
+FastCredits.Text = "Credits"
+FastCredits.TextSize = 20
+FastCredits.TextWrapped = true
+
+FastGame.Name = "FastGame"
+FastGame.Parent = FastTravelGUI
+FastGame.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+FastGame.BorderSizePixel = 0
+FastGame.Position = UDim2.new(0, 0, 0, 115)
+FastGame.Size = UDim2.new(0, 100, 0, 25)
+FastGame.Visible = false
+FastGame.Font = Enum.Font.Cartoon
+FastGame.FontSize = Enum.FontSize.Size24
+FastGame.Text = "Game"
+FastGame.TextSize = 20
+
+FastTeleport.Name = "FastTeleport"
+FastTeleport.Parent = FastTravelGUI
+FastTeleport.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+FastTeleport.BorderSizePixel = 0
+FastTeleport.Position = UDim2.new(0, 0, 0, 34)
+FastTeleport.Size = UDim2.new(0, 100, 0, 25)
+FastTeleport.Visible = false
+FastTeleport.Font = Enum.Font.Cartoon
+FastTeleport.FontSize = Enum.FontSize.Size24
+FastTeleport.Text = "Teleporting"
+FastTeleport.TextSize = 20
+
+FastSettings.Name = "FastSettings"
+FastSettings.Parent = FastTravelGUI
+FastSettings.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+FastSettings.BorderSizePixel = 0
+FastSettings.Position = UDim2.new(0, 0, 0, 169)
+FastSettings.Size = UDim2.new(0, 100, 0, 25)
+FastSettings.Visible = false
+FastSettings.Font = Enum.Font.Cartoon
+FastSettings.FontSize = Enum.FontSize.Size24
+FastSettings.Text = "Settings"
+FastSettings.TextSize = 20
+FastSettings.TextWrapped = true
+
+FastSpawning.Name = "FastSpawning"
+FastSpawning.Parent = FastTravelGUI
+FastSpawning.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+FastSpawning.BorderSizePixel = 0
+FastSpawning.Position = UDim2.new(0, 0, 0, 142)
+FastSpawning.Size = UDim2.new(0, 100, 0, 25)
+FastSpawning.Visible = false
+FastSpawning.Font = Enum.Font.Cartoon
+FastSpawning.FontSize = Enum.FontSize.Size24
+FastSpawning.Text = "Spawning"
+FastSpawning.TextSize = 20
+FastSpawning.TextWrapped = true
+
+CarTeleporting.Name = "CarTeleporting"
+CarTeleporting.Parent = MainGUI
+CarTeleporting.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CarTeleporting.BorderSizePixel = 0
+CarTeleporting.Position = UDim2.new(0, 167, 0, 95)
+CarTeleporting.Size = UDim2.new(0, 170, 0, 37)
+CarTeleporting.Font = Enum.Font.Cartoon
+CarTeleporting.FontSize = Enum.FontSize.Size24
+CarTeleporting.Text = "Car Teleporting"
+CarTeleporting.TextSize = 20
+
+FastTravel.Name = "FastTravel"
+FastTravel.Parent = MainGUI
+FastTravel.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+FastTravel.BackgroundTransparency = 1
+FastTravel.BorderSizePixel = 0
+FastTravel.Position = UDim2.new(0, 0, 0, 35)
+FastTravel.Size = UDim2.new(0, 31, 0, 37)
+FastTravel.Font = Enum.Font.Cartoon
+FastTravel.FontSize = Enum.FontSize.Size48
+FastTravel.Text = "<"
+FastTravel.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+FastTravel.TextSize = 40
+
+SettingsGUI.Name = "SettingsGUI"
+SettingsGUI.Parent = MainGUI
+SettingsGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+SettingsGUI.BorderSizePixel = 0
+SettingsGUI.Size = UDim2.new(0, 505, 0, 361)
+SettingsGUI.Visible = false
+
+TextLabel_20.Parent = SettingsGUI
+TextLabel_20.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_20.BackgroundTransparency = 1
+TextLabel_20.Position = UDim2.new(0, 189, 0, 0)
+TextLabel_20.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_20.Font = Enum.Font.Cartoon
+TextLabel_20.FontSize = Enum.FontSize.Size24
+TextLabel_20.Text = "Unjailbreak"
+TextLabel_20.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_20.TextSize = 20
+
+TextLabel_21.Parent = SettingsGUI
+TextLabel_21.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_21.BackgroundTransparency = 1
+TextLabel_21.Position = UDim2.new(0, 189, 0, 333)
+TextLabel_21.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_21.Font = Enum.Font.Cartoon
+TextLabel_21.FontSize = Enum.FontSize.Size24
+TextLabel_21.Text = "Created By Unlisting"
+TextLabel_21.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_21.TextSize = 20
+
+TextLabel_22.Parent = SettingsGUI
+TextLabel_22.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_22.BackgroundTransparency = 1
+TextLabel_22.Position = UDim2.new(0, 465, 0, 0)
+TextLabel_22.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_22.Font = Enum.Font.Cartoon
+TextLabel_22.FontSize = Enum.FontSize.Size24
+TextLabel_22.Text = "v0.6"
+TextLabel_22.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_22.TextSize = 20
+
+Back6.Name = "Back6"
+Back6.Parent = SettingsGUI
+Back6.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back6.BackgroundTransparency = 1
+Back6.BorderSizePixel = 0
+Back6.Position = UDim2.new(0, 208, 0, 308)
+Back6.Size = UDim2.new(0, 90, 0, 25)
+Back6.Font = Enum.Font.Cartoon
+Back6.FontSize = Enum.FontSize.Size18
+Back6.Text = "Back"
+Back6.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back6.TextSize = 17
+Back6.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+Transparent1.Name = "Transparent1"
+Transparent1.Parent = SettingsGUI
+Transparent1.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Transparent1.BackgroundTransparency = 0.5
+Transparent1.BorderSizePixel = 0
+Transparent1.Position = UDim2.new(0, 192, 0, 111)
+Transparent1.Size = UDim2.new(0, 34, 0, 30)
+Transparent1.Font = Enum.Font.Cartoon
+Transparent1.FontSize = Enum.FontSize.Size24
+Transparent1.Text = ""
+Transparent1.TextColor3 = Color3.new(0, 0, 0)
+Transparent1.TextSize = 20
+
+TextLabel_23.Parent = SettingsGUI
+TextLabel_23.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_23.BackgroundTransparency = 1
+TextLabel_23.Position = UDim2.new(0, 189, 0, 72)
+TextLabel_23.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_23.Font = Enum.Font.Cartoon
+TextLabel_23.FontSize = Enum.FontSize.Size24
+TextLabel_23.Text = "Transparency"
+TextLabel_23.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_23.TextSize = 20
+
+Transparent2.Name = "Transparent2"
+Transparent2.Parent = SettingsGUI
+Transparent2.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Transparent2.BorderSizePixel = 0
+Transparent2.Position = UDim2.new(0, 282, 0, 111)
+Transparent2.Size = UDim2.new(0, 34, 0, 30)
+Transparent2.Font = Enum.Font.Cartoon
+Transparent2.FontSize = Enum.FontSize.Size24
+Transparent2.Text = ""
+Transparent2.TextColor3 = Color3.new(0, 0, 0)
+Transparent2.TextSize = 20
+
+TextLabel_24.Parent = SettingsGUI
+TextLabel_24.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_24.BackgroundTransparency = 1
+TextLabel_24.Position = UDim2.new(0, 189, 0, 152)
+TextLabel_24.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_24.Font = Enum.Font.Cartoon
+TextLabel_24.FontSize = Enum.FontSize.Size24
+TextLabel_24.Text = "Keybinds"
+TextLabel_24.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_24.TextSize = 20
+
+JewelryKey.Name = "JewelryKey"
+JewelryKey.Parent = SettingsGUI
+JewelryKey.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+JewelryKey.BorderSizePixel = 0
+JewelryKey.Position = UDim2.new(0, 213, 0, 252)
+JewelryKey.Size = UDim2.new(0, 79, 0, 30)
+JewelryKey.Font = Enum.Font.Cartoon
+JewelryKey.FontSize = Enum.FontSize.Size24
+JewelryKey.Text = "Jewelry"
+JewelryKey.TextColor3 = Color3.new(0, 0, 0)
+JewelryKey.TextSize = 20
+
+CrimBaseKey.Name = "CrimBaseKey"
+CrimBaseKey.Parent = SettingsGUI
+CrimBaseKey.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CrimBaseKey.BorderSizePixel = 0
+CrimBaseKey.Position = UDim2.new(0, 53, 0, 252)
+CrimBaseKey.Size = UDim2.new(0, 79, 0, 30)
+CrimBaseKey.Font = Enum.Font.Cartoon
+CrimBaseKey.FontSize = Enum.FontSize.Size24
+CrimBaseKey.Text = "CrimBase"
+CrimBaseKey.TextColor3 = Color3.new(0, 0, 0)
+CrimBaseKey.TextSize = 20
+
+BankKey.Name = "BankKey"
+BankKey.Parent = SettingsGUI
+BankKey.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+BankKey.BorderSizePixel = 0
+BankKey.Position = UDim2.new(0, 373, 0, 252)
+BankKey.Size = UDim2.new(0, 79, 0, 30)
+BankKey.Font = Enum.Font.Cartoon
+BankKey.FontSize = Enum.FontSize.Size24
+BankKey.Text = "Bank"
+BankKey.TextColor3 = Color3.new(0, 0, 0)
+BankKey.TextSize = 20
+
+JewelryKeyBox.Name = "JewelryKeyBox"
+JewelryKeyBox.Parent = SettingsGUI
+JewelryKeyBox.BackgroundColor3 = Color3.new(0, 0, 0)
+JewelryKeyBox.BackgroundTransparency = 0.5
+JewelryKeyBox.Position = UDim2.new(0, 233, 0, 198)
+JewelryKeyBox.Size = UDim2.new(0, 38, 0, 33)
+JewelryKeyBox.Font = Enum.Font.Cartoon
+JewelryKeyBox.FontSize = Enum.FontSize.Size24
+JewelryKeyBox.Text = "Key"
+JewelryKeyBox.TextColor3 = Color3.new(0, 0.666667, 1)
+JewelryKeyBox.TextSize = 20
+
+CrimBaseKeyBox.Name = "CrimBaseKeyBox"
+CrimBaseKeyBox.Parent = SettingsGUI
+CrimBaseKeyBox.BackgroundColor3 = Color3.new(0, 0, 0)
+CrimBaseKeyBox.BackgroundTransparency = 0.5
+CrimBaseKeyBox.Position = UDim2.new(0, 73, 0, 198)
+CrimBaseKeyBox.Size = UDim2.new(0, 38, 0, 33)
+CrimBaseKeyBox.Font = Enum.Font.Cartoon
+CrimBaseKeyBox.FontSize = Enum.FontSize.Size24
+CrimBaseKeyBox.Text = "Key"
+CrimBaseKeyBox.TextColor3 = Color3.new(0, 0.666667, 1)
+CrimBaseKeyBox.TextSize = 20
+
+BankKeyBox.Name = "BankKeyBox"
+BankKeyBox.Parent = SettingsGUI
+BankKeyBox.BackgroundColor3 = Color3.new(0, 0, 0)
+BankKeyBox.BackgroundTransparency = 0.5
+BankKeyBox.Position = UDim2.new(0, 393, 0, 198)
+BankKeyBox.Size = UDim2.new(0, 38, 0, 33)
+BankKeyBox.Font = Enum.Font.Cartoon
+BankKeyBox.FontSize = Enum.FontSize.Size24
+BankKeyBox.Text = "Key"
+BankKeyBox.TextColor3 = Color3.new(0, 0.666667, 1)
+BankKeyBox.TextSize = 20
+
+CloseButton6.Name = "CloseButton6"
+CloseButton6.Parent = SettingsGUI
+CloseButton6.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CloseButton6.BackgroundTransparency = 1
+CloseButton6.BorderSizePixel = 0
+CloseButton6.Position = UDim2.new(0, 322, 0, 0)
+CloseButton6.Size = UDim2.new(0, 127, 0, 31)
+CloseButton6.Font = Enum.Font.Cartoon
+CloseButton6.FontSize = Enum.FontSize.Size24
+CloseButton6.Text = "Close"
+CloseButton6.TextColor3 = Color3.new(0, 0.666667, 1)
+CloseButton6.TextSize = 20
+
+CustomTransparency.Name = "CustomTransparency"
+CustomTransparency.Parent = SettingsGUI
+CustomTransparency.BackgroundColor3 = Color3.new(0, 0, 0)
+CustomTransparency.BackgroundTransparency = 0.5
+CustomTransparency.Position = UDim2.new(0, 73, 0, 108)
+CustomTransparency.Size = UDim2.new(0, 38, 0, 33)
+CustomTransparency.Font = Enum.Font.Cartoon
+CustomTransparency.FontSize = Enum.FontSize.Size24
+CustomTransparency.Text = "0.1"
+CustomTransparency.TextColor3 = Color3.new(0, 0.666667, 1)
+CustomTransparency.TextSize = 20
+
+TextLabel_25.Parent = SettingsGUI
+TextLabel_25.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_25.BackgroundTransparency = 1
+TextLabel_25.Position = UDim2.new(0, 33, 0, 72)
+TextLabel_25.Size = UDim2.new(0, 120, 0, 28)
+TextLabel_25.Font = Enum.Font.Cartoon
+TextLabel_25.FontSize = Enum.FontSize.Size24
+TextLabel_25.Text = "Custom"
+TextLabel_25.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_25.TextSize = 20
+
+SetCustomTransparency.Name = "SetCustomTransparency"
+SetCustomTransparency.Parent = SettingsGUI
+SetCustomTransparency.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+SetCustomTransparency.BorderSizePixel = 0
+SetCustomTransparency.Position = UDim2.new(0, 69, 0, 150)
+SetCustomTransparency.Size = UDim2.new(0, 45, 0, 30)
+SetCustomTransparency.Font = Enum.Font.Cartoon
+SetCustomTransparency.FontSize = Enum.FontSize.Size24
+SetCustomTransparency.Text = "Set"
+SetCustomTransparency.TextColor3 = Color3.new(0, 0, 0)
+SetCustomTransparency.TextSize = 20
+
+CreditsGUI.Name = "CreditsGUI"
+CreditsGUI.Parent = MainGUI
+CreditsGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+CreditsGUI.BorderSizePixel = 0
+CreditsGUI.Size = UDim2.new(0, 505, 0, 361)
+CreditsGUI.Visible = false
+
+TextLabel_26.Parent = CreditsGUI
+TextLabel_26.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_26.BackgroundTransparency = 1
+TextLabel_26.Position = UDim2.new(0, 189, 0, 0)
+TextLabel_26.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_26.Font = Enum.Font.Cartoon
+TextLabel_26.FontSize = Enum.FontSize.Size24
+TextLabel_26.Text = "Unjailbreak"
+TextLabel_26.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_26.TextSize = 20
+
+TextLabel_27.Parent = CreditsGUI
+TextLabel_27.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_27.BackgroundTransparency = 1
+TextLabel_27.Position = UDim2.new(0, 189, 0, 333)
+TextLabel_27.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_27.Font = Enum.Font.Cartoon
+TextLabel_27.FontSize = Enum.FontSize.Size24
+TextLabel_27.Text = "Created By Unlisting"
+TextLabel_27.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_27.TextSize = 20
+
+TextLabel_28.Parent = CreditsGUI
+TextLabel_28.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_28.BackgroundTransparency = 1
+TextLabel_28.Position = UDim2.new(0, 465, 0, 0)
+TextLabel_28.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_28.Font = Enum.Font.Cartoon
+TextLabel_28.FontSize = Enum.FontSize.Size24
+TextLabel_28.Text = "v0.6"
+TextLabel_28.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_28.TextSize = 20
+
+Back4.Name = "Back4"
+Back4.Parent = CreditsGUI
+Back4.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back4.BackgroundTransparency = 1
+Back4.BorderSizePixel = 0
+Back4.Position = UDim2.new(0, 208, 0, 308)
+Back4.Size = UDim2.new(0, 90, 0, 25)
+Back4.Font = Enum.Font.Cartoon
+Back4.FontSize = Enum.FontSize.Size18
+Back4.Text = "Back"
+Back4.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back4.TextSize = 17
+Back4.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+TextLabel_29.Parent = CreditsGUI
+TextLabel_29.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_29.BackgroundTransparency = 1
+TextLabel_29.Position = UDim2.new(0, 189, 0, 142)
+TextLabel_29.Size = UDim2.new(0, 127, 0, 13)
+TextLabel_29.Font = Enum.Font.Cartoon
+TextLabel_29.FontSize = Enum.FontSize.Size24
+TextLabel_29.Text = "Credits To BabyHamsta For Helping With The Bypasser"
+TextLabel_29.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_29.TextSize = 20
+
+TextLabel_30.Parent = CreditsGUI
+TextLabel_30.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_30.BackgroundTransparency = 1
+TextLabel_30.Position = UDim2.new(0, 189, 0, 87)
+TextLabel_30.Size = UDim2.new(0, 127, 0, 13)
+TextLabel_30.Font = Enum.Font.Cartoon
+TextLabel_30.FontSize = Enum.FontSize.Size24
+TextLabel_30.Text = "Credits To Victini For Helping So Much With Learning Lua!"
+TextLabel_30.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_30.TextSize = 20
+
+TextLabel_31.Parent = CreditsGUI
+TextLabel_31.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_31.BackgroundTransparency = 1
+TextLabel_31.Position = UDim2.new(0, 189, 0, 231)
+TextLabel_31.Size = UDim2.new(0, 127, 0, 13)
+TextLabel_31.Font = Enum.Font.Cartoon
+TextLabel_31.FontSize = Enum.FontSize.Size24
+TextLabel_31.Text = "NOTE: IF YOU DONT LIKE THE UI OR WANT SOMETHING"
+TextLabel_31.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_31.TextSize = 20
+
+TextLabel_32.Parent = CreditsGUI
+TextLabel_32.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_32.BackgroundTransparency = 1
+TextLabel_32.Position = UDim2.new(0, 189, 0, 250)
+TextLabel_32.Size = UDim2.new(0, 127, 0, 13)
+TextLabel_32.Font = Enum.Font.Cartoon
+TextLabel_32.FontSize = Enum.FontSize.Size24
+TextLabel_32.Text = "CHANGED PM ME ON V3RM WITH SUGGESTIONS"
+TextLabel_32.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_32.TextSize = 20
+
+CloseButton4.Name = "CloseButton4"
+CloseButton4.Parent = CreditsGUI
+CloseButton4.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CloseButton4.BackgroundTransparency = 1
+CloseButton4.BorderSizePixel = 0
+CloseButton4.Position = UDim2.new(0, 322, 0, 0)
+CloseButton4.Size = UDim2.new(0, 127, 0, 31)
+CloseButton4.Font = Enum.Font.Cartoon
+CloseButton4.FontSize = Enum.FontSize.Size24
+CloseButton4.Text = "Close"
+CloseButton4.TextColor3 = Color3.new(0, 0.666667, 1)
+CloseButton4.TextSize = 20
+
+TextLabel_33.Parent = CreditsGUI
+TextLabel_33.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_33.BackgroundTransparency = 1
+TextLabel_33.Position = UDim2.new(0, 189, 0, 168)
+TextLabel_33.Size = UDim2.new(0, 127, 0, 13)
+TextLabel_33.Font = Enum.Font.Cartoon
+TextLabel_33.FontSize = Enum.FontSize.Size24
+TextLabel_33.Text = "Credits To Josh#9877 For Helping Me Fix Button Functions"
+TextLabel_33.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_33.TextSize = 20
+
+TextLabel_34.Parent = CreditsGUI
+TextLabel_34.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_34.BackgroundTransparency = 1
+TextLabel_34.Position = UDim2.new(0, 189, 0, 196)
+TextLabel_34.Size = UDim2.new(0, 127, 0, 13)
+TextLabel_34.Font = Enum.Font.Cartoon
+TextLabel_34.FontSize = Enum.FontSize.Size24
+TextLabel_34.Text = "Credits To Jeffery For Helping With Notifiers"
+TextLabel_34.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_34.TextSize = 20
+
+TextLabel_35.Parent = CreditsGUI
+TextLabel_35.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_35.BackgroundTransparency = 1
+TextLabel_35.Position = UDim2.new(0, 189, 0, 105)
+TextLabel_35.Size = UDim2.new(0, 127, 0, 13)
+TextLabel_35.Font = Enum.Font.Cartoon
+TextLabel_35.FontSize = Enum.FontSize.Size24
+TextLabel_35.Text = "Helping With Spawning Guns"
+TextLabel_35.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_35.TextSize = 20
+
+GameFunctions.Name = "GameFunctions"
+GameFunctions.Parent = MainGUI
+GameFunctions.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+GameFunctions.BorderSizePixel = 0
+GameFunctions.Position = UDim2.new(0, 167, 0, 185)
+GameFunctions.Size = UDim2.new(0, 170, 0, 37)
+GameFunctions.Font = Enum.Font.Cartoon
+GameFunctions.FontSize = Enum.FontSize.Size24
+GameFunctions.Text = "Game"
+GameFunctions.TextSize = 20
+
+CarTeleportingGUI.Name = "CarTeleportingGUI"
+CarTeleportingGUI.Parent = MainGUI
+CarTeleportingGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+CarTeleportingGUI.BorderSizePixel = 0
+CarTeleportingGUI.Size = UDim2.new(0, 505, 0, 361)
+CarTeleportingGUI.Visible = false
+
+TextLabel_36.Parent = CarTeleportingGUI
+TextLabel_36.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_36.BackgroundTransparency = 1
+TextLabel_36.Position = UDim2.new(0, 189, 0, 0)
+TextLabel_36.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_36.Font = Enum.Font.Cartoon
+TextLabel_36.FontSize = Enum.FontSize.Size24
+TextLabel_36.Text = "Unjailbreak"
+TextLabel_36.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_36.TextSize = 20
+
+TextLabel_37.Parent = CarTeleportingGUI
+TextLabel_37.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_37.BackgroundTransparency = 1
+TextLabel_37.Position = UDim2.new(0, 189, 0, 333)
+TextLabel_37.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_37.Font = Enum.Font.Cartoon
+TextLabel_37.FontSize = Enum.FontSize.Size24
+TextLabel_37.Text = "Created By Unlisting"
+TextLabel_37.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_37.TextSize = 20
+
+TextLabel_38.Parent = CarTeleportingGUI
+TextLabel_38.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_38.BackgroundTransparency = 1
+TextLabel_38.Position = UDim2.new(0, 465, 0, 0)
+TextLabel_38.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_38.Font = Enum.Font.Cartoon
+TextLabel_38.FontSize = Enum.FontSize.Size24
+TextLabel_38.Text = "v0.6"
+TextLabel_38.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_38.TextSize = 20
+
+Bugatti.Name = "Bugatti"
+Bugatti.Parent = CarTeleportingGUI
+Bugatti.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Bugatti.BorderSizePixel = 0
+Bugatti.Position = UDim2.new(0, 198, 0, 75)
+Bugatti.Size = UDim2.new(0, 109, 0, 28)
+Bugatti.Font = Enum.Font.Cartoon
+Bugatti.FontSize = Enum.FontSize.Size18
+Bugatti.Text = "Bugatti"
+Bugatti.TextColor3 = Color3.new(1, 1, 0)
+Bugatti.TextSize = 17
+
+Lambo.Name = "Lambo"
+Lambo.Parent = CarTeleportingGUI
+Lambo.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Lambo.BorderSizePixel = 0
+Lambo.Position = UDim2.new(0, 198, 0, 40)
+Lambo.Size = UDim2.new(0, 109, 0, 28)
+Lambo.Font = Enum.Font.Cartoon
+Lambo.FontSize = Enum.FontSize.Size18
+Lambo.Text = "Lamborghini"
+Lambo.TextColor3 = Color3.new(1, 1, 0)
+Lambo.TextSize = 17
+
+CloseButton5.Name = "CloseButton5"
+CloseButton5.Parent = CarTeleportingGUI
+CloseButton5.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CloseButton5.BackgroundTransparency = 1
+CloseButton5.BorderSizePixel = 0
+CloseButton5.Position = UDim2.new(0, 322, 0, 0)
+CloseButton5.Size = UDim2.new(0, 127, 0, 31)
+CloseButton5.Font = Enum.Font.Cartoon
+CloseButton5.FontSize = Enum.FontSize.Size24
+CloseButton5.Text = "Close"
+CloseButton5.TextColor3 = Color3.new(0, 0.666667, 1)
+CloseButton5.TextSize = 20
+
+Back5.Name = "Back5"
+Back5.Parent = CarTeleportingGUI
+Back5.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back5.BackgroundTransparency = 1
+Back5.BorderSizePixel = 0
+Back5.Position = UDim2.new(0, 208, 0, 308)
+Back5.Size = UDim2.new(0, 90, 0, 25)
+Back5.Font = Enum.Font.Cartoon
+Back5.FontSize = Enum.FontSize.Size18
+Back5.Text = "Back"
+Back5.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back5.TextSize = 17
+Back5.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+SWATVan.Name = "SWATVan"
+SWATVan.Parent = CarTeleportingGUI
+SWATVan.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+SWATVan.BorderSizePixel = 0
+SWATVan.Position = UDim2.new(0, 198, 0, 110)
+SWATVan.Size = UDim2.new(0, 109, 0, 28)
+SWATVan.Font = Enum.Font.Cartoon
+SWATVan.FontSize = Enum.FontSize.Size18
+SWATVan.Text = "SWAT Van"
+SWATVan.TextColor3 = Color3.new(1, 1, 0)
+SWATVan.TextSize = 17
+
+DuneBuggy.Name = "DuneBuggy"
+DuneBuggy.Parent = CarTeleportingGUI
+DuneBuggy.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+DuneBuggy.BorderSizePixel = 0
+DuneBuggy.Position = UDim2.new(0, 198, 0, 145)
+DuneBuggy.Size = UDim2.new(0, 109, 0, 28)
+DuneBuggy.Font = Enum.Font.Cartoon
+DuneBuggy.FontSize = Enum.FontSize.Size18
+DuneBuggy.Text = "Dune Buggy"
+DuneBuggy.TextColor3 = Color3.new(1, 1, 0)
+DuneBuggy.TextSize = 17
+
+Porsche.Name = "Porsche"
+Porsche.Parent = CarTeleportingGUI
+Porsche.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Porsche.BorderSizePixel = 0
+Porsche.Position = UDim2.new(0, 198, 0, 180)
+Porsche.Size = UDim2.new(0, 109, 0, 28)
+Porsche.Font = Enum.Font.Cartoon
+Porsche.FontSize = Enum.FontSize.Size18
+Porsche.Text = "Porsche"
+Porsche.TextColor3 = Color3.new(1, 1, 0)
+Porsche.TextSize = 17
+
+DirtBike.Name = "DirtBike"
+DirtBike.Parent = CarTeleportingGUI
+DirtBike.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+DirtBike.BorderSizePixel = 0
+DirtBike.Position = UDim2.new(0, 198, 0, 215)
+DirtBike.Size = UDim2.new(0, 109, 0, 28)
+DirtBike.Font = Enum.Font.Cartoon
+DirtBike.FontSize = Enum.FontSize.Size18
+DirtBike.Text = "Dirt Bike"
+DirtBike.TextColor3 = Color3.new(1, 1, 0)
+DirtBike.TextSize = 17
+
+Tesla3.Name = "Tesla3"
+Tesla3.Parent = CarTeleportingGUI
+Tesla3.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Tesla3.BorderSizePixel = 0
+Tesla3.Position = UDim2.new(0, 198, 0, 250)
+Tesla3.Size = UDim2.new(0, 109, 0, 28)
+Tesla3.Font = Enum.Font.Cartoon
+Tesla3.FontSize = Enum.FontSize.Size18
+Tesla3.Text = "Tesla"
+Tesla3.TextColor3 = Color3.new(1, 1, 0)
+Tesla3.TextSize = 17
+
+PickUpTruck.Name = "PickUpTruck"
+PickUpTruck.Parent = CarTeleportingGUI
+PickUpTruck.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+PickUpTruck.BorderSizePixel = 0
+PickUpTruck.Position = UDim2.new(0, 48, 0, 40)
+PickUpTruck.Size = UDim2.new(0, 109, 0, 28)
+PickUpTruck.Font = Enum.Font.Cartoon
+PickUpTruck.FontSize = Enum.FontSize.Size18
+PickUpTruck.Text = "Pick Up Truck"
+PickUpTruck.TextColor3 = Color3.new(1, 1, 0)
+PickUpTruck.TextSize = 17
+
+MiniCooper.Name = "MiniCooper"
+MiniCooper.Parent = CarTeleportingGUI
+MiniCooper.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+MiniCooper.BorderSizePixel = 0
+MiniCooper.Position = UDim2.new(0, 348, 0, 40)
+MiniCooper.Size = UDim2.new(0, 109, 0, 28)
+MiniCooper.Font = Enum.Font.Cartoon
+MiniCooper.FontSize = Enum.FontSize.Size18
+MiniCooper.Text = "Mini Cooper"
+MiniCooper.TextColor3 = Color3.new(1, 1, 0)
+MiniCooper.TextSize = 17
+
+Camaro.Name = "Camaro"
+Camaro.Parent = CarTeleportingGUI
+Camaro.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Camaro.BorderSizePixel = 0
+Camaro.Position = UDim2.new(0, 48, 0, 250)
+Camaro.Size = UDim2.new(0, 109, 0, 28)
+Camaro.Font = Enum.Font.Cartoon
+Camaro.FontSize = Enum.FontSize.Size18
+Camaro.Text = "Camaro"
+Camaro.TextColor3 = Color3.new(1, 1, 0)
+Camaro.TextSize = 17
+
+PoliceCar.Name = "PoliceCar"
+PoliceCar.Parent = CarTeleportingGUI
+PoliceCar.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+PoliceCar.BorderSizePixel = 0
+PoliceCar.Position = UDim2.new(0, 348, 0, 250)
+PoliceCar.Size = UDim2.new(0, 109, 0, 28)
+PoliceCar.Font = Enum.Font.Cartoon
+PoliceCar.FontSize = Enum.FontSize.Size18
+PoliceCar.Text = "Police Car"
+PoliceCar.TextColor3 = Color3.new(1, 1, 0)
+PoliceCar.TextSize = 17
+
+Settings.Name = "Settings"
+Settings.Parent = MainGUI
+Settings.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Settings.BorderSizePixel = 0
+Settings.Position = UDim2.new(0, 26, 0, 315)
+Settings.Size = UDim2.new(0, 105, 0, 28)
+Settings.Font = Enum.Font.Cartoon
+Settings.FontSize = Enum.FontSize.Size24
+Settings.Text = "Settings"
+Settings.TextSize = 20
+
+GameGUI.Name = "GameGUI"
+GameGUI.Parent = MainGUI
+GameGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+GameGUI.BorderSizePixel = 0
+GameGUI.Size = UDim2.new(0, 505, 0, 361)
+GameGUI.Visible = false
+
+TextLabel_39.Parent = GameGUI
+TextLabel_39.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_39.BackgroundTransparency = 1
+TextLabel_39.Position = UDim2.new(0, 189, 0, 0)
+TextLabel_39.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_39.Font = Enum.Font.Cartoon
+TextLabel_39.FontSize = Enum.FontSize.Size24
+TextLabel_39.Text = "Unjailbreak"
+TextLabel_39.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_39.TextSize = 20
+
+TextLabel_40.Parent = GameGUI
+TextLabel_40.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_40.BackgroundTransparency = 1
+TextLabel_40.Position = UDim2.new(0, 189, 0, 333)
+TextLabel_40.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_40.Font = Enum.Font.Cartoon
+TextLabel_40.FontSize = Enum.FontSize.Size24
+TextLabel_40.Text = "Created By Unlisting"
+TextLabel_40.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_40.TextSize = 20
+
+TextLabel_41.Parent = GameGUI
+TextLabel_41.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_41.BackgroundTransparency = 1
+TextLabel_41.Position = UDim2.new(0, 465, 0, 0)
+TextLabel_41.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_41.Font = Enum.Font.Cartoon
+TextLabel_41.FontSize = Enum.FontSize.Size24
+TextLabel_41.Text = "v0.6"
+TextLabel_41.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_41.TextSize = 20
+
+TpToMoney.Name = "TpToMoney"
+TpToMoney.Parent = GameGUI
+TpToMoney.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TpToMoney.BorderSizePixel = 0
+TpToMoney.Position = UDim2.new(0, 192, 0, 120)
+TpToMoney.Size = UDim2.new(0, 120, 0, 30)
+TpToMoney.Font = Enum.Font.Cartoon
+TpToMoney.FontSize = Enum.FontSize.Size24
+TpToMoney.Text = "TP To Money"
+TpToMoney.TextColor3 = Color3.new(1, 1, 0)
+TpToMoney.TextSize = 20
+
+SpamArrest.Name = "SpamArrest"
+SpamArrest.Parent = GameGUI
+SpamArrest.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+SpamArrest.BorderSizePixel = 0
+SpamArrest.Position = UDim2.new(0, 192, 0, 80)
+SpamArrest.Size = UDim2.new(0, 120, 0, 30)
+SpamArrest.Font = Enum.Font.Cartoon
+SpamArrest.FontSize = Enum.FontSize.Size24
+SpamArrest.Text = "Spam Arrest"
+SpamArrest.TextColor3 = Color3.new(1, 1, 0)
+SpamArrest.TextSize = 20
+
+Back3.Name = "Back3"
+Back3.Parent = GameGUI
+Back3.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back3.BackgroundTransparency = 1
+Back3.BorderSizePixel = 0
+Back3.Position = UDim2.new(0, 208, 0, 308)
+Back3.Size = UDim2.new(0, 90, 0, 25)
+Back3.Font = Enum.Font.Cartoon
+Back3.FontSize = Enum.FontSize.Size18
+Back3.Text = "Back"
+Back3.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back3.TextSize = 17
+Back3.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+CloseButton3.Name = "CloseButton3"
+CloseButton3.Parent = GameGUI
+CloseButton3.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CloseButton3.BackgroundTransparency = 1
+CloseButton3.BorderSizePixel = 0
+CloseButton3.Position = UDim2.new(0, 322, 0, 0)
+CloseButton3.Size = UDim2.new(0, 127, 0, 31)
+CloseButton3.Font = Enum.Font.Cartoon
+CloseButton3.FontSize = Enum.FontSize.Size24
+CloseButton3.Text = "Close"
+CloseButton3.TextColor3 = Color3.new(0, 0.666667, 1)
+CloseButton3.TextSize = 20
+
+Keycard.Name = "Keycard"
+Keycard.Parent = GameGUI
+Keycard.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Keycard.BorderSizePixel = 0
+Keycard.Position = UDim2.new(0, 192, 0, 160)
+Keycard.Size = UDim2.new(0, 120, 0, 30)
+Keycard.Font = Enum.Font.Cartoon
+Keycard.FontSize = Enum.FontSize.Size24
+Keycard.Text = "KeyCard"
+Keycard.TextColor3 = Color3.new(1, 1, 0)
+Keycard.TextSize = 20
+
+AnnoyServer.Name = "AnnoyServer"
+AnnoyServer.Parent = GameGUI
+AnnoyServer.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+AnnoyServer.BorderSizePixel = 0
+AnnoyServer.Position = UDim2.new(0, 192, 0, 200)
+AnnoyServer.Size = UDim2.new(0, 120, 0, 30)
+AnnoyServer.Font = Enum.Font.Cartoon
+AnnoyServer.FontSize = Enum.FontSize.Size24
+AnnoyServer.Text = "Annoy Server"
+AnnoyServer.TextColor3 = Color3.new(1, 1, 0)
+AnnoyServer.TextSize = 20
+
+StopAnnoy.Name = "StopAnnoy"
+StopAnnoy.Parent = GameGUI
+StopAnnoy.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+StopAnnoy.BorderSizePixel = 0
+StopAnnoy.Position = UDim2.new(0, 205, 0, 240)
+StopAnnoy.Size = UDim2.new(0, 95, 0, 21)
+StopAnnoy.Font = Enum.Font.Cartoon
+StopAnnoy.FontSize = Enum.FontSize.Size24
+StopAnnoy.Text = "Stop Annoy"
+StopAnnoy.TextColor3 = Color3.new(1, 1, 0)
+StopAnnoy.TextSize = 20
+
+Giveaways.Name = "Giveaways"
+Giveaways.Parent = MainGUI
+Giveaways.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Giveaways.BorderSizePixel = 0
+Giveaways.Position = UDim2.new(0, 373, 0, 315)
+Giveaways.Size = UDim2.new(0, 105, 0, 28)
+Giveaways.Font = Enum.Font.Cartoon
+Giveaways.FontSize = Enum.FontSize.Size24
+Giveaways.Text = "Giveaways"
+Giveaways.TextSize = 20
+
+GiveawayGUI.Name = "GiveawayGUI"
+GiveawayGUI.Parent = MainGUI
+GiveawayGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+GiveawayGUI.BorderSizePixel = 0
+GiveawayGUI.Size = UDim2.new(0, 505, 0, 361)
+GiveawayGUI.Visible = false
+
+TextLabel_42.Parent = GiveawayGUI
+TextLabel_42.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_42.BackgroundTransparency = 1
+TextLabel_42.Position = UDim2.new(0, 189, 0, 0)
+TextLabel_42.Size = UDim2.new(0, 127, 0, 31)
+TextLabel_42.Font = Enum.Font.Cartoon
+TextLabel_42.FontSize = Enum.FontSize.Size24
+TextLabel_42.Text = "Unjailbreak"
+TextLabel_42.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_42.TextSize = 20
+
+TextLabel_43.Parent = GiveawayGUI
+TextLabel_43.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_43.BackgroundTransparency = 1
+TextLabel_43.Position = UDim2.new(0, 189, 0, 333)
+TextLabel_43.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_43.Font = Enum.Font.Cartoon
+TextLabel_43.FontSize = Enum.FontSize.Size24
+TextLabel_43.Text = "Created By Unlisting"
+TextLabel_43.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_43.TextSize = 20
+
+TextLabel_44.Parent = GiveawayGUI
+TextLabel_44.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_44.BackgroundTransparency = 1
+TextLabel_44.Position = UDim2.new(0, 465, 0, 0)
+TextLabel_44.Size = UDim2.new(0, 40, 0, 29)
+TextLabel_44.Font = Enum.Font.Cartoon
+TextLabel_44.FontSize = Enum.FontSize.Size24
+TextLabel_44.Text = "v0.6"
+TextLabel_44.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_44.TextSize = 20
+
+Back7.Name = "Back7"
+Back7.Parent = GiveawayGUI
+Back7.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back7.BackgroundTransparency = 1
+Back7.BorderSizePixel = 0
+Back7.Position = UDim2.new(0, 208, 0, 308)
+Back7.Size = UDim2.new(0, 90, 0, 25)
+Back7.Font = Enum.Font.Cartoon
+Back7.FontSize = Enum.FontSize.Size18
+Back7.Text = "Back"
+Back7.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+Back7.TextSize = 17
+Back7.TextStrokeColor3 = Color3.new(1, 1, 0)
+
+CloseButton7.Name = "CloseButton7"
+CloseButton7.Parent = GiveawayGUI
+CloseButton7.BackgroundColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+CloseButton7.BackgroundTransparency = 1
+CloseButton7.BorderSizePixel = 0
+CloseButton7.Position = UDim2.new(0, 322, 0, 0)
+CloseButton7.Size = UDim2.new(0, 127, 0, 31)
+CloseButton7.Font = Enum.Font.Cartoon
+CloseButton7.FontSize = Enum.FontSize.Size24
+CloseButton7.Text = "Close"
+CloseButton7.TextColor3 = Color3.new(0, 0.666667, 1)
+CloseButton7.TextSize = 20
+
+TextLabel_45.Parent = GiveawayGUI
+TextLabel_45.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_45.BackgroundTransparency = 1
+TextLabel_45.Position = UDim2.new(0, 189, 0, 82)
+TextLabel_45.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_45.Font = Enum.Font.Cartoon
+TextLabel_45.FontSize = Enum.FontSize.Size24
+TextLabel_45.Text = "Every New Update There Will Be Suprises From Now On!"
+TextLabel_45.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_45.TextSize = 20
+
+TextLabel_46.Parent = GiveawayGUI
+TextLabel_46.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_46.BackgroundTransparency = 1
+TextLabel_46.Position = UDim2.new(0, 189, 0, 109)
+TextLabel_46.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_46.Font = Enum.Font.Cartoon
+TextLabel_46.FontSize = Enum.FontSize.Size24
+TextLabel_46.Text = "Check Back Here Every Update For Giveaways!"
+TextLabel_46.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_46.TextSize = 20
+
+TextLabel_47.Parent = GiveawayGUI
+TextLabel_47.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_47.BackgroundTransparency = 1
+TextLabel_47.Position = UDim2.new(0, 189, 0, 153)
+TextLabel_47.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_47.Font = Enum.Font.Cartoon
+TextLabel_47.FontSize = Enum.FontSize.Size24
+TextLabel_47.Text = "Unjailbreak v0.6 Giveaways:"
+TextLabel_47.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_47.TextSize = 20
+
+TextLabel_48.Parent = GiveawayGUI
+TextLabel_48.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_48.BackgroundTransparency = 1
+TextLabel_48.Position = UDim2.new(0, 189, 0, 181)
+TextLabel_48.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_48.Font = Enum.Font.Cartoon
+TextLabel_48.FontSize = Enum.FontSize.Size24
+TextLabel_48.Text = "Jailbreak 50k Cash For 3 Users On Website Below!"
+TextLabel_48.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_48.TextSize = 20
+
+TextLabel_49.Parent = GiveawayGUI
+TextLabel_49.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_49.BackgroundTransparency = 1
+TextLabel_49.Position = UDim2.new(0, 189, 0, 202)
+TextLabel_49.Size = UDim2.new(0, 127, 0, 28)
+TextLabel_49.Font = Enum.Font.Cartoon
+TextLabel_49.FontSize = Enum.FontSize.Size24
+TextLabel_49.Text = "gleam.io/SId7c/jailbreak-50k-cash-giveaway-for-3-users"
+TextLabel_49.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_49.TextSize = 20
+
+OpenGUI.Name = "OpenGUI"
+OpenGUI.Parent = Motherboard
+OpenGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+OpenGUI.BorderSizePixel = 0
+OpenGUI.Position = UDim2.new(0, -120, 0, 671)
+OpenGUI.Size = UDim2.new(0, 104, 0, 38)
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = OpenGUI
+OpenButton.BackgroundColor3 = Color3.new(1, 1, 1)
+OpenButton.BackgroundTransparency = 1
+OpenButton.Size = UDim2.new(0, 104, 0, 38)
+OpenButton.Font = Enum.Font.Cartoon
+OpenButton.FontSize = Enum.FontSize.Size24
+OpenButton.Text = "Open"
+OpenButton.TextColor3 = Color3.new(0, 0.666667, 1)
+OpenButton.TextSize = 20
+
+ChangeLogGUI.Name = "ChangeLogGUI"
+ChangeLogGUI.Parent = Motherboard
+ChangeLogGUI.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+ChangeLogGUI.BorderSizePixel = 0
+ChangeLogGUI.Position = UDim2.new(0, 1920, 0, 640)
+ChangeLogGUI.Size = UDim2.new(0, 159, 0, 273)
+
+TextLabel_50.Parent = ChangeLogGUI
+TextLabel_50.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_50.BackgroundTransparency = 1
+TextLabel_50.Size = UDim2.new(0, 159, 0, 33)
+TextLabel_50.Font = Enum.Font.Cartoon
+TextLabel_50.FontSize = Enum.FontSize.Size24
+TextLabel_50.Text = "  ChangeLog:"
+TextLabel_50.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TextLabel_50.TextSize = 20
+TextLabel_50.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_51.Parent = ChangeLogGUI
+TextLabel_51.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_51.BackgroundTransparency = 1
+TextLabel_51.Position = UDim2.new(0, 0, 0, 30)
+TextLabel_51.Size = UDim2.new(0, 159, 0, 33)
+TextLabel_51.Font = Enum.Font.Cartoon
+TextLabel_51.FontSize = Enum.FontSize.Size24
+TextLabel_51.Text = " - Added Giveaway"
+TextLabel_51.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TextLabel_51.TextSize = 20
+TextLabel_51.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_52.Parent = ChangeLogGUI
+TextLabel_52.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_52.BackgroundTransparency = 1
+TextLabel_52.Position = UDim2.new(0, 0, 0, 50)
+TextLabel_52.Size = UDim2.new(0, 159, 0, 33)
+TextLabel_52.Font = Enum.Font.Cartoon
+TextLabel_52.FontSize = Enum.FontSize.Size24
+TextLabel_52.Text = " - Added Spawning"
+TextLabel_52.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TextLabel_52.TextSize = 20
+TextLabel_52.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_53.Parent = ChangeLogGUI
+TextLabel_53.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_53.BackgroundTransparency = 1
+TextLabel_53.Position = UDim2.new(0, 0, 0, 85)
+TextLabel_53.Size = UDim2.new(0, 159, 0, 33)
+TextLabel_53.Font = Enum.Font.Cartoon
+TextLabel_53.FontSize = Enum.FontSize.Size24
+TextLabel_53.Text = " - Fixed Annoy"
+TextLabel_53.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TextLabel_53.TextSize = 20
+TextLabel_53.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_54.Parent = ChangeLogGUI
+TextLabel_54.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_54.BackgroundTransparency = 1
+TextLabel_54.Position = UDim2.new(0, 0, 0, 136)
+TextLabel_54.Size = UDim2.new(0, 159, 0, 40)
+TextLabel_54.Font = Enum.Font.Cartoon
+TextLabel_54.FontSize = Enum.FontSize.Size24
+TextLabel_54.Text = "  KeyBinds:"
+TextLabel_54.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TextLabel_54.TextSize = 20
+TextLabel_54.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_55.Parent = ChangeLogGUI
+TextLabel_55.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_55.BackgroundTransparency = 1
+TextLabel_55.Position = UDim2.new(0, 0, 0, 167)
+TextLabel_55.Size = UDim2.new(0, 159, 0, 16)
+TextLabel_55.Font = Enum.Font.Cartoon
+TextLabel_55.FontSize = Enum.FontSize.Size24
+TextLabel_55.Text = "-Keybinds Moved To"
+TextLabel_55.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TextLabel_55.TextSize = 20
+TextLabel_55.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_56.Parent = ChangeLogGUI
+TextLabel_56.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_56.BackgroundTransparency = 1
+TextLabel_56.Position = UDim2.new(0, 0, 0, 186)
+TextLabel_56.Size = UDim2.new(0, 159, 0, 17)
+TextLabel_56.Font = Enum.Font.Cartoon
+TextLabel_56.FontSize = Enum.FontSize.Size24
+TextLabel_56.Text = "Settings For"
+TextLabel_56.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TextLabel_56.TextSize = 20
+
+TextLabel_57.Parent = ChangeLogGUI
+TextLabel_57.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_57.BackgroundTransparency = 1
+TextLabel_57.Position = UDim2.new(0, 0, 0, 203)
+TextLabel_57.Size = UDim2.new(0, 159, 0, 20)
+TextLabel_57.Font = Enum.Font.Cartoon
+TextLabel_57.FontSize = Enum.FontSize.Size24
+TextLabel_57.Text = "Customization"
+TextLabel_57.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TextLabel_57.TextSize = 20
+
+ChangeLogClose.Name = "ChangeLogClose"
+ChangeLogClose.Parent = ChangeLogGUI
+ChangeLogClose.BackgroundColor3 = Color3.new(0.160784, 0.160784, 0.160784)
+ChangeLogClose.BorderSizePixel = 0
+ChangeLogClose.Position = UDim2.new(0, 30, 0, 230)
+ChangeLogClose.Size = UDim2.new(0, 100, 0, 28)
+ChangeLogClose.Font = Enum.Font.Cartoon
+ChangeLogClose.FontSize = Enum.FontSize.Size24
+ChangeLogClose.Text = "Close"
+ChangeLogClose.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+ChangeLogClose.TextSize = 20
+
+TextLabel_58.Parent = ChangeLogGUI
+TextLabel_58.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_58.BackgroundTransparency = 1
+TextLabel_58.Position = UDim2.new(0, 0, 0, 65)
+TextLabel_58.Size = UDim2.new(0, 159, 0, 33)
+TextLabel_58.Font = Enum.Font.Cartoon
+TextLabel_58.FontSize = Enum.FontSize.Size24
+TextLabel_58.Text = "   Section+"
+TextLabel_58.TextColor3 = Color3.new(0.176471, 0.623529, 0.784314)
+TextLabel_58.TextSize = 20
+TextLabel_58.TextXAlignment = Enum.TextXAlignment.Left
+
+JNotifierOpen.Name = "JNotifierOpen"
+JNotifierOpen.Parent = Motherboard
+JNotifierOpen.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+JNotifierOpen.BorderSizePixel = 0
+JNotifierOpen.Position = UDim2.new(0, 1950, 0, 657)
+JNotifierOpen.Size = UDim2.new(0, 202, 0, 73)
+
+TextLabel_59.Parent = JNotifierOpen
+TextLabel_59.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_59.BackgroundTransparency = 1
+TextLabel_59.Size = UDim2.new(0, 202, 0, 37)
+TextLabel_59.Font = Enum.Font.Cartoon
+TextLabel_59.FontSize = Enum.FontSize.Size24
+TextLabel_59.Text = "Jewelry Store Is Open!"
+TextLabel_59.TextColor3 = Color3.new(0, 0.666667, 1)
+TextLabel_59.TextSize = 20
+
+GotoJewelry.Name = "GotoJewelry"
+GotoJewelry.Parent = JNotifierOpen
+GotoJewelry.BackgroundColor3 = Color3.new(0.160784, 0.160784, 0.160784)
+GotoJewelry.BorderSizePixel = 0
+GotoJewelry.Position = UDim2.new(0, 51, 0, 37)
+GotoJewelry.Size = UDim2.new(0, 99, 0, 36)
+GotoJewelry.Font = Enum.Font.Cartoon
+GotoJewelry.FontSize = Enum.FontSize.Size24
+GotoJewelry.Text = "Goto"
+GotoJewelry.TextColor3 = Color3.new(0, 0.666667, 1)
+GotoJewelry.TextSize = 20
+
+BNotifierOpen.Name = "BNotifierOpen"
+BNotifierOpen.Parent = Motherboard
+BNotifierOpen.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+BNotifierOpen.BorderSizePixel = 0
+BNotifierOpen.Position = UDim2.new(0, 1950, 0, 578)
+BNotifierOpen.Size = UDim2.new(0, 202, 0, 73)
+
+TextLabel_60.Parent = BNotifierOpen
+TextLabel_60.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_60.BackgroundTransparency = 1
+TextLabel_60.Size = UDim2.new(0, 202, 0, 45)
+TextLabel_60.Font = Enum.Font.Cartoon
+TextLabel_60.FontSize = Enum.FontSize.Size24
+TextLabel_60.Text = "Bank Is Now Open!"
+TextLabel_60.TextColor3 = Color3.new(0, 0.666667, 1)
+TextLabel_60.TextSize = 20
+
+GotoBank.Name = "GotoBank"
+GotoBank.Parent = BNotifierOpen
+GotoBank.BackgroundColor3 = Color3.new(0.160784, 0.160784, 0.160784)
+GotoBank.BorderSizePixel = 0
+GotoBank.Position = UDim2.new(0, 51, 0, 37)
+GotoBank.Size = UDim2.new(0, 99, 0, 36)
+GotoBank.Font = Enum.Font.Cartoon
+GotoBank.FontSize = Enum.FontSize.Size24
+GotoBank.Text = "Goto"
+GotoBank.TextColor3 = Color3.new(0, 0.666667, 1)
+GotoBank.TextSize = 20
+
+wait(0.1)
+game.CoreGui.Motherboard.BypassJailbreakGUI:TweenPosition(UDim2.new(0, 835, 0, 331), 'Out', 'Bounce', 2, true)
+
+local number = 2
+for i=1,number do
+wait(0.5)
+game.CoreGui.Motherboard.BypassJailbreakGUI.TryingToBypass.Text = "Trying To Bypass Jailbreak"
+wait(0.5)
+game.CoreGui.Motherboard.BypassJailbreakGUI.TryingToBypass.Text = "Trying To Bypass Jailbreak."
+wait(0.5)
+game.CoreGui.Motherboard.BypassJailbreakGUI.TryingToBypass.Text = "Trying To Bypass Jailbreak.."
+wait(0.5)
+game.CoreGui.Motherboard.BypassJailbreakGUI.TryingToBypass.Text = "Trying To Bypass Jailbreak..."
+end
+
+wait(0.5)
+game.CoreGui.Motherboard.BypassJailbreakGUI.TryingToBypass.Text = "Jailbreak Has Been Bypassed"
+game.CoreGui.Motherboard.BypassJailbreakGUI.TryingToBypass.TextColor = BrickColor.new(85, 255, 0)
+
+wait(3)
+game.CoreGui.Motherboard.BypassJailbreakGUI:TweenPosition(UDim2.new(0, 835, 0, -331), 'Out', 'Quart', 1, true)
+
+wait(1)
+game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 708, 0, 307), 'Out', 'Bounce', 1, true)
+game.CoreGui.Motherboard.ChangeLogGUI:TweenPosition(UDim2.new(0, 1761, 0, 640), 'Out', 'Quint', 1, true)
+
+ChangeLogClose.MouseButton1Down:connect(function()
+          warn'test'
+          game.CoreGui.Motherboard.ChangeLogGUI:TweenPosition(UDim2.new(0, 1917, 0, 640), 'Out', 'Quint', 1, true)
+
+    wait(0.5)
+    game.CoreGui.Motherboard.ChangeLogGUI:Remove()
+end)
+
+CloseButton.MouseButton1Down:connect(function()
+	wait(0.01)
+	game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 1200),"Out","Quart",2,true)
+	game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, 0, 0, 639),"Out","Quart",2,true)
+end)
+
+CloseButton1.MouseButton1Down:connect(function()
+	wait(0.01)
+	game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 1200),"Out","Quart",2,true)
+	game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, 0, 0, 639),"Out","Quart",2,true)
+end)
+
+CloseButton2.MouseButton1Down:connect(function()
+	wait(0.01)
+	game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 1200),"Out","Quart",2,true)
+	game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, 0, 0, 639),"Out","Quart",2,true)
+end)
+
+CloseButton3.MouseButton1Down:connect(function()
+	wait(0.01)
+	game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 1200),"Out","Quart",2,true)
+	game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, 0, 0, 639),"Out","Quart",2,true)
+end)
+
+CloseButton4.MouseButton1Down:connect(function()
+	wait(0.01)
+	game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 1200),"Out","Quart",2,true)
+	game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, 0, 0, 639),"Out","Quart",2,true)
+end)
+
+CloseButton5.MouseButton1Down:connect(function()
+	wait(0.01)
+	game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 1200),"Out","Quart",2,true)
+	game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, 0, 0, 639),"Out","Quart",2,true)
+end)
+
+CloseButton6.MouseButton1Down:connect(function()
+	wait(0.01)
+	game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 1200),"Out","Quart",2,true)
+	game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, 0, 0, 639),"Out","Quart",2,true)
+end)
+
+CloseButton7.MouseButton1Down:connect(function()
+	wait(0.01)
+	game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 1200),"Out","Quart",2,true)
+	game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, 0, 0, 639),"Out","Quart",2,true)
+end)
+
+CloseButton8.MouseButton1Down:connect(function()
+	wait(0.01)
+	game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 1200),"Out","Quart",2,true)
+	game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, 0, 0, 639),"Out","Quart",2,true)
+end)
+
+OpenButton.MouseButton1Down:connect(function()
+    wait(0.01)
+    game.CoreGui.Motherboard.MainGUI:TweenPosition(UDim2.new(0, 702, 0, 307),"Out","Quart",2,true)
+    game.CoreGui.Motherboard.OpenGUI:TweenPosition(UDim2.new(0, -200, 0, 639),"Out","Quart",2,true)
+end)
+
+Teleporting.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+end)
+
+CarTeleporting.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+end)
+
+LocalPlayerFunctions.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+end)
+
+GameFunctions.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.GameGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+end)
+
+CreditsButton.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.CreditsGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+end)
+
+Spawning.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.SpawningGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+end)
+
+Giveaways.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.GiveawayGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+end)
+
+Settings.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+end)
+
+FastTeleport.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SpawningGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GiveawayGUI.Visible = false
+end)
+
+FastCarTeleporting.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SpawningGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GiveawayGUI.Visible = false
+end)
+
+FastSettings.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SpawningGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GiveawayGUI.Visible = false
+end)
+
+FastLocalPlayer.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SpawningGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GiveawayGUI.Visible = false
+end)
+
+FastGame.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CreditsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SpawningGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GiveawayGUI.Visible = false
+end)
+
+FastCredits.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SpawningGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GiveawayGUI.Visible = false
+end)
+
+FastSpawning.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = false
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = false
+	game.CoreGui.Motherboard.MainGUI.SpawningGUI.Visible = true
+	game.CoreGui.Motherboard.MainGUI.GiveawayGUI.Visible = false
+end)
+
+Back1.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = true
+end)
+
+Back2.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = true
+end)
+
+Back3.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.GameGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = true
+end)
+
+Back4.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.CreditsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = true
+end)
+
+Back5.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = true
+end)
+
+Back6.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = true
+end)
+
+Back7.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.GiveawayGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = true
+end)
+
+Back8.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.SpawningGUI.Visible = false
+	game.CoreGui.Motherboard.MainGUI.GameFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Teleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerFunctions.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CreditsButton.Visible = true
+	game.CoreGui.Motherboard.MainGUI.CarTeleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Settings.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Spawning.Visible = true
+	game.CoreGui.Motherboard.MainGUI.Giveaways.Visible = true
+end)
+
+FastTravel.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI:TweenSize(UDim2.new(0, 100, 0, 223), 'Out', 'Bounce', 1, false)
+	game.CoreGui.Motherboard.MainGUI.FastTravel.Visible = false
+	
+	wait(1)
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.FastTeleport.Visible = true
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.FastLocalPlayer.Visible = true
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.FastGame.Visible = true
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.FastCredits.Visible = true
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.FastTravelLabel.Visible = true
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.FastCarTeleporting.Visible = true
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.FastSettings.Visible = true
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.FastSpawning.Visible = true
+end)
+
+for i, v in pairs(game:GetService("Workspace").Banks:GetChildren()) do
+	spawn(function()
+		while wait(0.1) do
+			if v.Extra.Light.SurfaceLight.Enabled == true then
+				game.CoreGui.Motherboard.BNotifierOpen:TweenPosition(UDim2.new(0, 1718,0, 578),"Out","Quint",2,true)
+			else
+				game.CoreGui.Motherboard.BNotifierOpen:TweenPosition(UDim2.new(0, 1950,0, 578),"Out","Quint",2,true)
+			end
+		end
+	end)
+end
+
+for i, v in pairs(game:GetService("Workspace").Jewelrys:GetChildren()) do
+	spawn(function()
+		while wait(0.1) do
+			if v.Extra.Light.SurfaceLight.Enabled == true then
+				game.CoreGui.Motherboard.JNotifierOpen:TweenPosition(UDim2.new(0, 1718,0, 657),"Out","Quint",2,true)
+			else
+				game.CoreGui.Motherboard.JNotifierOpen:TweenPosition(UDim2.new(0, 1950,0, 657),"Out","Quint",2,true)
+			end
+		end
+	end)
+end
+
+Keycard.MouseButton1Down:connect(function()
+	game:GetService("Players").LocalPlayer.TeamValue.Value= "Police"
+end)
+
+local PLR = game:GetService("Players").LocalPlayer
+
+local Players = game:GetService("Players"):GetPlayers()
+
+local Selected1 = game.CoreGui.Motherboard.MainGUI.TeleportsGUI.SPlayer
+
+val.Name = "Selected"
+
+function alphabetize(p1, p2)
+	local Player1 = p1.Name:lower()
+	local P1 = Player1:sub(1, 1):byte()
+	local Player2 = p2.Name:lower()
+	local P2 = Player2:sub(1, 1):byte()
+
+
+	if P1 < P2 then return true else return false end
+end
+table.sort(Players, alphabetize)
+
+for i = 1, #Players do
+	local p = Players[i]
+	if p ~= PLR then
+		local btn = Instance.new("TextButton", sframe)
+		btn.Name = p.Name
+		btn.Text = p.Name
+		btn.Size = UDim2.new(0, 260, 0, 25)
+		btn.Font = Enum.Font.Highway
+		btn.FontSize = Enum.FontSize.Size14
+		btn.TextColor3 = Color3.new(255, 255, 255)
+		btn.BackgroundTransparency = 1
+		btn.Position = UDim2.new(0, 0, 0, (i * 25) - 25)
+		sframe.CanvasSize = UDim2.new(0, 0, 0, (#Players * 25) - 25)
+		btn.MouseButton1Click:connect(function()
+		val.Value = p
+			Selected1.Text = "Player: "..p.Name
+		end)
+		
+	end
+end
+
+function update()
+	
+	for i, btn in ipairs(sframe:GetChildren()) do if btn:IsA("TextButton") then btn:Destroy() end end
+	
+	local plrs = game:GetService("Players"):GetPlayers()
+	table.sort(plrs, alphabetize)
+
+	for i = 1, #plrs do
+		
+		local p = plrs[i]
+		if p ~= PLR then
+			
+			local btn = Instance.new("TextButton", sframe)
+			btn.Text = p.Name
+			btn.Size = UDim2.new(0, 260, 0, 25)
+			btn.Font = Enum.Font.Highway
+			btn.FontSize = Enum.FontSize.Size14
+			btn.TextColor3 = Color3.new(255, 255, 255)
+			btn.BackgroundTransparency = 1
+			btn.Position = UDim2.new(0, 0, 0, (i * 25) - 25)
+			
+			sframe.CanvasSize = UDim2.new(0, 0, 0, (#Players * 25) - 25)
+			
+			btn.MouseButton1Click:connect(function()
+				val.Value = p
+				SPlayer.Text = "Player: "..p.Name
+			end)
+			
+		end
+	end
+	
+end
+game:GetService("Players").PlayerAdded:connect(update)
+game:GetService("Players").PlayerRemoving:connect(update)
+
+function getPlayer()
+	if val.Value:IsA("Player") and val.Value.Character:FindFirstChild("HumanoidRootPart") then return val.Value else return nil end
+end
+
+VehichleSpeed.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://1079982436")[1].Source)()
+end)
+
+GotoBank.MouseButton1Down:connect(function()
+		for i=1,12 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.036747, 17.9193821, 797.971521) + Vector3.new(1,0,0)
+	end
+end)
+
+JumpPower1.MouseButton1Down:connect(function()
+	if Jump == true then
+Jump = false
+game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = 50
+else
+Jump = true
+game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = 100
+end
+end)
+
+GotoJewelry.MouseButton1Down:connect(function()
+		for i=1,12 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.325, 17.878, 1320.123) + Vector3.new(1,0,0)
+	end
+end)
+
+Gravity1.MouseButton1Down:connect(function()
+	if Gravity == true then
+Gravity = false
+game:GetService("Workspace").Gravity = 196.2
+else
+Gravity = true
+game:GetService("Workspace").Gravity = 45
+end
+end)
+
+Coordinates.MouseButton1Down:connect(function()
+	print(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position)
+end)
+
+WalkSpeed1.MouseButton1Down:connect(function()
+	down = false
+velocity = Instance.new("BodyVelocity")
+velocity.maxForce = Vector3.new(100000, 0, 100000)
+local speed = 150
+gyro = Instance.new("BodyGyro")
+gyro.maxTorque = Vector3.new(100000, 0, 100000)
+
+local hum = game:GetService("Players").LocalPlayer.Character.Humanoid
+
+function onButton1Down(mouse)
+	down = true
+	velocity.Parent = game:GetService("Players").LocalPlayer.Character.UpperTorso
+	velocity.velocity = (hum.MoveDirection) * speed
+	gyro.Parent = game:GetService("Players").LocalPlayer.Character.UpperTorso
+	while down do
+		if not down then break end
+		velocity.velocity = (hum.MoveDirection) * speed
+		local refpos = gyro.Parent.Position + (gyro.Parent.Position - workspace.CurrentCamera.CoordinateFrame.p).unit * 5
+		gyro.cframe = CFrame.new(gyro.Parent.Position, Vector3.new(refpos.x, gyro.Parent.Position.y, refpos.z))
+		wait(0.1)
+	end
+end
+
+function onButton1Up(mouse)
+	velocity.Parent = nil
+	gyro.Parent = nil
+	down = false
+end
+
+function onSelected(mouse)
+	mouse.KeyDown:connect(function(k) if k:lower()=="q"then onButton1Down(mouse)end end)
+	mouse.KeyUp:connect(function(k) if k:lower()=="q"then onButton1Up(mouse)end end)
+end
+
+onSelected(game:GetService("Players").LocalPlayer:GetMouse())
+end)
+
+noclip = false
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+
+Noclipp.MouseButton1Down:connect(function()
+noclip = not noclip
+if Noclipp.Text == "Noclip ON" then
+    Noclipp.Text = "Noclip OFF"
+else
+    Noclipp.Text = "Noclip ON"
+end
+end)
+
+SpamArrest.MouseButton1Down:connect(function()
+	local Player = game:GetService("Players").LocalPlayer
+	wait(0.5)
+	for i,v in pairs(game.Teams.Criminal:GetPlayers()) do
+		repeat
+			wait()
+			Player.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 1)
+		until v.Team.Name ~= "Criminal"
+	end
+end)
+
+GoTo.MouseButton1Down:connect(function()
+	local p = getPlayer()
+	if p then 
+			for i=1,20 do
+   wait()
+		PLR.Character.HumanoidRootPart.CFrame = p.Character.HumanoidRootPart.CFrame + Vector3.new(0, 3, 0)
+		end
+	else 
+		GoTo.Text = "Retry"; wait(1); GoTo.Text = "GoTo" end
+end)
+
+CrimBaseKey.MouseButton1Down:connect(function()
+	local mouse1 = game:GetService("Players").LocalPlayer:GetMouse()
+	mouse1.KeyDown:connect(function(key)
+		if key == CrimBaseKeyBox.Text then
+			game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-222.339157, 17.9125443, 1575.82336) + Vector3.new(1,0,0)
+		end
+	end)
+end)
+
+JewelryKey.MouseButton1Down:connect(function()
+	local mouse1 = game:GetService("Players").LocalPlayer:GetMouse()
+	mouse1.KeyDown:connect(function(key)
+		if key == JewelryKeyBox.Text then
+			game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.325, 17.878, 1320.123) + Vector3.new(1,0,0)
+		end
+	end)
+end)
+
+BankKey.MouseButton1Down:connect(function()
+	local mouse1 = game:GetService("Players").LocalPlayer:GetMouse()
+	mouse1.KeyDown:connect(function(key)
+		if key == BankKeyBox.Text then
+			game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.036747, 17.9193821, 797.971521) + Vector3.new(1,0,0)
+		end
+	end)
+end)
+
+Transparent1.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.BackgroundTransparency = 0.5
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.BackgroundTransparency = 0.5
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.BackgroundTransparency = 0.5
+	game.CoreGui.Motherboard.MainGUI.GameGUI.BackgroundTransparency = 0.5
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.BackgroundTransparency = 0.5
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.BackgroundTransparency = 0.5
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.BackgroundTransparency = 0.5
+end)
+
+Transparent2.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.BackgroundTransparency = 0
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.BackgroundTransparency = 0
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.BackgroundTransparency = 0
+	game.CoreGui.Motherboard.MainGUI.GameGUI.BackgroundTransparency = 0
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.BackgroundTransparency = 0
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.BackgroundTransparency = 0
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.BackgroundTransparency = 0
+end)
+
+ClickTP.MouseButton1Down:connect(function()
+	local UIS = game:GetService("UserInputService")
+
+local Player = game:GetService("Players").LocalPlayer
+local Mouse = Player:GetMouse()
+
+
+function GetCharacter()
+   return Player.Character
+end
+
+function Teleport(pos)
+   local Char = GetCharacter()
+   if Char then
+   for i=1,20 do
+   wait()
+       Char:MoveTo(pos)
+       end
+   end
+end
+
+
+UIS.InputBegan:Connect(function(input)
+   if input.UserInputType == Enum.UserInputType.MouseButton1 and UIS:IsKeyDown(Enum.KeyCode.LeftControl) then
+       Teleport(Mouse.Hit.p)
+   end
+end)
+end)
+
+InfiniteAmmo.MouseButton1Down:connect(function()
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.Ammo.MagSize.Name = "lol"
+end)
+
+Prison.MouseButton1Down:connect(function()
+	for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1138.66, 18.009, -1430.01) + Vector3.new(1,0,0)
+	end
+end)
+
+CrimBase1.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-222.339157, 17.9125443, 1575.82336) + Vector3.new(1,0,0)
+	end
+end)
+
+CrimBase2.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1579.4823, 49.787693, -1759.61438) + Vector3.new(1,0,0)
+	end
+end)
+
+PoliceHQ1.MouseButton1Click:connect(function()
+		for i=1,20 do
+   wait()	
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1130.11426, 17.950058, -1593.09766) + Vector3.new(1,0,0)
+	end
+end)
+
+PoliceHQ2.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(736.232239, 38.1125107, 1130.04456) + Vector3.new(1,0,0)
+	end
+end)
+
+BankFront.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.036747, 17.9193821, 797.971521) + Vector3.new(1,0,0)
+	end
+end)
+
+Garage.MouseButton1Click:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-341.0529, 19.644, 1182.502) + Vector3.new(1,0,0)
+	end
+end)
+
+BankVault.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(32.214, 2.67609, 818.648926) + Vector3.new(1,0,0)
+	end
+end)
+
+JewelryIn.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.325, 17.878, 1320.123) + Vector3.new(1,0,0)
+	end
+end)
+
+JewelryOut.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.325, 17.878, 1355.123) + Vector3.new(1,0,0)
+	end
+end)
+
+GasStation.MouseButton1Click:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1548.20093, 17.7475166, 701.546997) + Vector3.new(1,0,0)
+	end
+end)
+
+DonutShop.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(267.315552, 17.6180038, -1796.33093) + Vector3.new(1,0,0)
+	end
+end)
+
+Lambo.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(144.794067, 17.6189003, 768.572693) + Vector3.new(1,0,0)
+	end
+end)
+
+Bugatti.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.938766, 17.6064777, 1372.15076) + Vector3.new(1,0,0)
+	end
+end)
+
+SWATVan.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1355.2417, 18, -1531.86047) + Vector3.new(1,0,0)
+	end
+end)
+
+DuneBuggy.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(571.526733, 16.66436, -470.50943) + Vector3.new(1,0,0)
+	end
+end)
+
+PickUpTruck.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1541.10388, 17.746624, 729) + Vector3.new(1,0,0)
+	end
+end)
+
+DirtBike.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1313.71118, 17.3656254, 370.085327) + Vector3.new(1,0,0)
+	end
+end)
+
+Porsche.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1112.11475, 101.16069, 1290.57654) + Vector3.new(1,0,0)
+	end
+end)
+
+Camaro.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-956.153564, 19.8500576, -1451.23572) + Vector3.new(1,0,0)
+	end
+end)
+
+PoliceCar.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1088.1095, 19.8500576, -1504.74512) + Vector3.new(1,0,0)
+	end
+end)
+
+MiniCooper.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(767.823242, 17.3656254, -1216.83643) + Vector3.new(1,0,0)
+	end
+end)
+
+Tesla3.MouseButton1Down:connect(function()
+		for i=1,20 do
+   wait()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.571999, 17.6169529, 541.515747) + Vector3.new(1,0,0)
+	end
+end)
+
+GodMode1.MouseButton1Down:connect(function()
+	game:GetService("Players").LocalPlayer.Character.Humanoid.Name = 1
+local l = game:GetService("Players").LocalPlayer.Character["1"]:Clone()
+l.Parent = game:GetService("Players").LocalPlayer.Character
+l.Name = "Humanoid"
+wait(0.1)
+game:GetService("Players").LocalPlayer.Character["1"]:Destroy()
+game:GetService("Workspace").CurrentCamera.CameraSubject = game:GetService("Players").LocalPlayer.Character
+game:GetService("Players").LocalPlayer.Character.Animate.Disabled = true
+wait(0.1)
+game:GetService("Players").LocalPlayer.Character.Animate.Disabled = false
+game:GetService("Players").LocalPlayer.Character.Humanoid.DisplayDistanceType = "None"
+end)
+
+Btools.MouseButton1Down:connect(function()
+	StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+for index, child in pairs(game:GetService("Workspace"):GetChildren()) do
+   if child.ClassName == "Part" then
+       child.Locked = false
+   end
+   if child.ClassName == "MeshPart" then
+       child.Locked = false
+   end
+   if child.ClassName == "UnionOperation" then
+       child.Locked = false
+   end
+   if child.ClassName == "Model" then
+       for index, chil in pairs(child:GetChildren()) do
+           if chil.ClassName == "Part" then
+               chil.Locked = false
+           end
+           if chil.ClassName == "MeshPart" then
+               chil.Locked = false
+           end
+           if chil.ClassName == "UnionOperation" then
+               chil.Locked = false
+           end
+           if chil.ClassName == "Model" then
+               for index, childe in pairs(chil:GetChildren()) do
+                   if childe.ClassName == "Part" then
+                       childe.Locked = false
+                   end
+                   if childe.ClassName == "MeshPart" then
+                       childe.Locked = false
+                   end
+                   if childe.ClassName == "UnionOperation" then
+                       childe.Locked = false
+                   end
+                   if childe.ClassName == "Model" then
+                       for index, childeo in pairs(childe:GetChildren()) do
+                           if childeo.ClassName == "Part" then
+                               childeo.Locked = false
+                           end
+                           if childeo.ClassName == "MeshPart" then
+                               childeo.Locked = false
+                           end
+                           if childeo.ClassName == "UnionOperation" then
+                               childeo.Locked = false
+                           end
+                           if childeo.ClassName == "Model" then
+                           end
+                       end
+                   end
+               end
+           end
+       end
+   end
+end
+c = Instance.new("HopperBin", game:GetService("Players").LocalPlayer.Backpack)
+c.BinType = Enum.BinType.Hammer
+c = Instance.new("HopperBin", game:GetService("Players").LocalPlayer.Backpack)
+c.BinType = Enum.BinType.Clone
+c = Instance.new("HopperBin", game:GetService("Players").LocalPlayer.Backpack)
+c.BinType = Enum.BinType.Grab
+end)
+
+RemoveAllDoorsAndLasers.MouseButton1Down:connect(function()
+	for i, v in pairs(game:GetService("Workspace").Jewelrys:GetChildren()) do
+		v.Lasers:Remove()
+		v.Cameras:Remove()
+		v.FloorLasers:Remove()
+	end
+	game:GetService("Workspace").Cells:Remove()
+	game:GetService("Workspace").Doors:Remove()
+	game:GetService("Workspace").EscapeRoutes.ExplodeWall:Destroy()
+	game:GetService("Workspace").EscapeRoutes.LiftGate:Remove()
+	for i, v in pairs(game:GetService("Workspace").Banks:GetChildren()) do
+		v.Door:Destroy()
+		v.TriggerDoor:Destroy()
+		v.Lasers:Remove()
+	end
+end)
+
+Pistol.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "Pistol" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+AK47.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "ShootingRange" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "AK47" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+Shotgun.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "Shotgun" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+Flashlight.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "Flashlight" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+M4A4.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "RifleSWAT" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+PoliceShirt.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "ShirtPolice" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+PolicePants.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "PantsPolice" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+PoliceHat.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "HatPolice" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+SWATShirt.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "ShirtSWAT" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+SWATPants.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "PantsSWAT" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+SWATHat.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "HatSWAT" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+SWATMask.MouseButton1Down:connect(function()
+	local hit = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+
+    a = Instance.new("Part", workspace)
+    a.Anchored = true
+    a.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3)
+    a.CanCollide = false
+    
+        for i, v in pairs(game:GetService("Workspace").Givers:GetChildren()) do
+    if v.Name == "Station" then
+    for a, b in pairs(v:GetChildren()) do
+    if b:IsA("StringValue") then
+    if b.Value == "MaskSWAT" then
+    v.CFrame = CFrame.new(hit)
+    end
+    end
+    end
+    end
+    end
+end)
+
+AnnoyServer.MouseButton1Down:connect(function()
+	while wait(0.2) do
+for _,plr in pairs(game:GetService("Players"):GetPlayers()) do
+pcall(function()
+for _,obj in pairs(plr.Character.Head:GetChildren()) do
+if obj:IsA("Sound") then
+obj:Play()
+end
+end
+end)
+end
+end
+end)
+
+StopAnnoy.MouseButton1Down:connect(function()
+	while wait(0.001) do
+for _,plr in pairs(game:GetService("Players"):GetPlayers()) do
+pcall(function()
+for _,obj in pairs(plr.Character.Head:GetChildren()) do
+if obj:IsA("Sound") then
+obj:Stop()
+end
+end
+end)
+end
+end
+end)
+
+SetCustomTransparency.MouseButton1Down:connect(function()
+	game.CoreGui.Motherboard.MainGUI.BackgroundTransparency = CustomTransparency.Text
+	game.CoreGui.Motherboard.MainGUI.TeleportsGUI.BackgroundTransparency = CustomTransparency.Text
+	game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.BackgroundTransparency = CustomTransparency.Text
+	game.CoreGui.Motherboard.MainGUI.GameGUI.BackgroundTransparency = CustomTransparency.Text
+	game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.BackgroundTransparency = CustomTransparency.Text
+	game.CoreGui.Motherboard.MainGUI.SettingsGUI.BackgroundTransparency = CustomTransparency.Text
+	game.CoreGui.Motherboard.MainGUI.FastTravelGUI.BackgroundTransparency = CustomTransparency.Text
+	
+	if game.CoreGui.Motherboard.MainGUI.SettingsGUI.CustomTransparency.Text == "1" then
+		game.CoreGui.Motherboard.MainGUI.BackgroundTransparency = 0
+		game.CoreGui.Motherboard.MainGUI.TeleportsGUI.BackgroundTransparency = 0
+		game.CoreGui.Motherboard.MainGUI.CarTeleportingGUI.BackgroundTransparency = 0
+		game.CoreGui.Motherboard.MainGUI.GameGUI.BackgroundTransparency = 0
+		game.CoreGui.Motherboard.MainGUI.LocalPlayerGUI.BackgroundTransparency = 0
+		game.CoreGui.Motherboard.MainGUI.SettingsGUI.BackgroundTransparency = 0
+		game.CoreGui.Motherboard.MainGUI.FastTravelGUI.BackgroundTransparency = 0
+	end
+end)
+
+
+
+warn("Unjailbreak v0.6 Has Loaded")
+warn("Created By Unlisting")

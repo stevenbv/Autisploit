@@ -1,0 +1,387 @@
+--Generated with Syntax's Converter, plz buy Comet hub kthxbye.
+--Counted 51551 (length)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+
+local PsykeksPrisonLifeGUI = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='PsykeksPrisonLifeGUI', Parent=game.CoreGui})
+local Topframe = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.184314, 0.184314, 0.184314),BackgroundTransparency=0,BorderColor3=Color3.new(0.184314, 0.184314, 0.184314),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.582942843, 0, 0.417744905, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 408, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'Topframe',Parent = PsykeksPrisonLifeGUI})
+local Mainframe = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.294118, 0.294118, 0.294118),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 1, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 408, 0, 194),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'Mainframe',Parent = Topframe})
+local AK47 = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='AK-47',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0171568636, 0, 0.201030925, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 159, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='AK47',Parent = Mainframe})
+local M9 = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='M9',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0171568692, 0, 0.340206176, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 159, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='M9',Parent = Mainframe})
+local M4A1 = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='M4A1',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0171568636, 0, 0.479381412, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 159, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='M4A1',Parent = Mainframe})
+local REM870 = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='REM 870',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0171568636, 0, 0.618556678, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 159, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='REM 870',Parent = Mainframe})
+local FloorTools = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Items on Floor',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.593137205, 0, 0.201030925, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 159, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='FloorTools',Parent = Mainframe})
+local CrudeKnife = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Crude Knife',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.593137205, 0, 0.340206176, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 159, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CrudeKnife',Parent = Mainframe})
+local Hammer = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Hammer',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0171568394, 0, 0.757731915, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 159, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Hammer',Parent = Mainframe})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.Arial,FontSize=Enum.FontSize.Size18,Text='Prison Life',TextColor3=Color3.new(0.670588, 0.670588, 0.670588),TextScaled=false,TextSize=17,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.184314, 0.184314, 0.184314),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.388480425, 0, 0.166666657, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 91, 0, 14),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = Topframe})
+local Close = CreateInstance('TextButton',{Font=Enum.Font.ArialBold,FontSize=Enum.FontSize.Size18,Text='X',TextColor3=Color3.new(0.670588, 0.670588, 0.670588),TextScaled=false,TextSize=18,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.184314, 0.184314, 0.184314),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.938725471, 0, -0.0185185149, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 23),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Close',Parent = Topframe})
+local Minimize = CreateInstance('TextButton',{Font=Enum.Font.ArialBold,FontSize=Enum.FontSize.Size18,Text='_',TextColor3=Color3.new(0.670588, 0.670588, 0.670588),TextScaled=false,TextSize=18,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.184314, 0.184314, 0.184314),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.894607842, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 20),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Minimize',Parent = Topframe})
+local Tabsframe = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.211765, 0.211765, 0.211765),BackgroundTransparency=0,BorderColor3=Color3.new(0.211765, 0.211765, 0.211765),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 1, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 408, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'Tabsframe',Parent = Topframe})
+local ToolsTab = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Weapons & Tools',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.301961, 0.301961, 0.301961),BackgroundTransparency=0,BorderColor3=Color3.new(0.184314, 0.184314, 0.184314),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.0967741907, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 102, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ToolsTab',Parent = Tabsframe})
+local TeleportsTab = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Teleports',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.301961, 0.301961, 0.301961),BackgroundTransparency=0,BorderColor3=Color3.new(0.184314, 0.184314, 0.184314),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.25, 0, 0.0967741907, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 102, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TeleportsTab',Parent = Tabsframe})
+local ServerTab = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Server',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.301961, 0.301961, 0.301961),BackgroundTransparency=0,BorderColor3=Color3.new(0.184314, 0.184314, 0.184314),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.5, 0, 0.0967741907, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 102, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ServerTab',Parent = Tabsframe})
+local LocalPlayerTab = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Local Player',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.301961, 0.301961, 0.301961),BackgroundTransparency=0,BorderColor3=Color3.new(0.184314, 0.184314, 0.184314),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.75, 0, 0.0967741907, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 102, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='LocalPlayerTab',Parent = Tabsframe})
+local TeleportsFrame = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 2.42592573, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 408, 0, 155),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'TeleportsFrame',Parent = Topframe})
+local CellsTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Cells',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0294117648, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CellsTP',Parent = TeleportsFrame})
+local CafeTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Cafe',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.343137294, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CafeTP',Parent = TeleportsFrame})
+local YardTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Prison Yard',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.656862795, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='YardTP',Parent = TeleportsFrame})
+local PoliceRoomTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Police Room',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0281862747, 0, 0.174193546, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='PoliceRoomTP',Parent = TeleportsFrame})
+local CriminalSpawnTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Criminal Spawn',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.655637264, 0, 0.174193546, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CriminalSpawnTP',Parent = TeleportsFrame})
+local PrisonFrontTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Prison Front',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.341911823, 0, 0.174193546, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='PrisonFrontTP',Parent = TeleportsFrame})
+local SewerEntranceTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Sewer Entrance',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0281862747, 0, 0.348387092, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='SewerEntranceTP',Parent = TeleportsFrame})
+local LoadingSpawnTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Loading Spawn',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.655637264, 0, 0.348387092, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='LoadingSpawnTP',Parent = TeleportsFrame})
+local SewerExitTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Sewer Exit',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.341911823, 0, 0.348387092, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='SewerExitTP',Parent = TeleportsFrame})
+local ParkingGarageTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Parking Garage',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0281862747, 0, 0.522580624, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ParkingGarageTP',Parent = TeleportsFrame})
+local HouseTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Houses',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.655637264, 0, 0.522580624, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HouseTP',Parent = TeleportsFrame})
+local GasStationTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Gas Station',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.341911823, 0, 0.522580624, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='GasStationTP',Parent = TeleportsFrame})
+local StoreTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Store',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0281862747, 0, 0.696774185, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='StoreTP',Parent = TeleportsFrame})
+local SquadTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Squad (Vehicle)',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.655637264, 0, 0.696774185, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='SquadTP',Parent = TeleportsFrame})
+local SedanTP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Sedan (vehicle)',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.341911823, 0, 0.696774185, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='SedanTP',Parent = TeleportsFrame})
+local ServerFrame = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1.1920929e-07, 0, 2.44444442, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 408, 0, 155),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'ServerFrame',Parent = Topframe})
+local RemoveDoors = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Remove Doors',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0294117648, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='RemoveDoors',Parent = ServerFrame})
+local RemoveArrestCooldown = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='No Arrest Cooldown',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.343137294, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='RemoveArrestCooldown',Parent = ServerFrame})
+local RemoveCityBuildings = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Remove City Buildings',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.656862795, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='RemoveCityBuildings',Parent = ServerFrame})
+local RemoveCafe = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Remove Cafe',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0294117928, 0, 0.174193546, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='RemoveCafe',Parent = ServerFrame})
+local RemovePoliceRoom = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Remove Police Room',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.341911793, 0, 0.174193546, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='RemovePoliceRoom',Parent = ServerFrame})
+local RemoveCells = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Remove Cell Block',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.655637264, 0, 0.174193546, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='RemoveCells',Parent = ServerFrame})
+local RemovePrisonHallways = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Remove Prison Halls',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.655637264, 0, 0.348387092, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='RemovePrisonHallways',Parent = ServerFrame})
+local RemovePrisonTrees = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Remove Prison Trees',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0294117928, 0, 0.348387092, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='RemovePrisonTrees',Parent = ServerFrame})
+local RemoveSewer = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Remove Sewer',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.341911793, 0, 0.348387092, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='RemoveSewer',Parent = ServerFrame})
+local LocalPlayerFrame = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 2.44444418, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 408, 0, 155),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'LocalPlayerFrame',Parent = Topframe})
+local Minus10WS = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='-10 Walkspeed',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0269607846, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Minus10WS',Parent = LocalPlayerFrame})
+local Minus10JP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='-10 Jump Power',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0269607846, 0, 0.174193546, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Minus10JP',Parent = LocalPlayerFrame})
+local Plus10WS = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='+10 Walkspeed',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.340686291, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Plus10WS',Parent = LocalPlayerFrame})
+local Plus10JP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='+10 Jump Power',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.340686291, 0, 0.174193546, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Plus10JP',Parent = LocalPlayerFrame})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Ctrl+Click destroy',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.762254953, 0, 0.348387182, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 91, 0, 11),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = LocalPlayerFrame})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Shift+Click TP',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.762254953, 0, 0.477419317, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 91, 0, 11),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = LocalPlayerFrame})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.75, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 1, 0, 132),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = LocalPlayerFrame})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='GUI made by:',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.762254953, 0, 0.051612854, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 91, 0, 11),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = LocalPlayerFrame})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Psykek#3180',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.761029422, 0, 0.174193501, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 91, 0, 11),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = LocalPlayerFrame})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.762254894, 0, 0.296774209, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 91, 0, 2),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = LocalPlayerFrame})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Press K to toggle kill Aura',TextColor3=Color3.new(0, 0, 0),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.762254894, 0, 0.638709664, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 91, 0, 26),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = LocalPlayerFrame})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.762254894, 0, 0.58709681, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 91, 0, 2),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = LocalPlayerFrame})
+local Minus100JP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='-100 Jump Power',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0269607846, 0, 0.593548357, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Minus100JP',Parent = LocalPlayerFrame})
+local Minus100WS = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='-100 Walkspeed',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0269607846, 0, 0.419354826, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Minus100WS',Parent = LocalPlayerFrame})
+local Plus100WS = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='+100 Walkspeed',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.340686291, 0, 0.419354826, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Plus100WS',Parent = LocalPlayerFrame})
+local Plus100JP = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='+100 Jump Power',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.517647, 0.517647, 0.517647),BackgroundTransparency=0,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.340686291, 0, 0.593548357, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 128, 0, 27),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Plus100JP',Parent = LocalPlayerFrame})
+local OpenButton = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='Open',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.RobloxRoundButton,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.294118, 0.294118, 0.294118),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.4470478, 0, -0.0462107211, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 112, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=false,ZIndex=1,Name='OpenButton',Parent = PsykeksPrisonLifeGUI})
+
+Topframe.Active = true
+Topframe.Draggable = true
+
+local Plr = game:GetService("Players").LocalPlayer
+local Mouse = Plr:GetMouse()
+
+Mouse.Button1Down:connect(function()
+if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftShift) then return end
+if not Mouse.Target then return end
+Plr.Character:MoveTo(Mouse.Hit.p)
+end)
+
+-- Weapons and Tools
+
+AK47.MouseButton1Click:Connect(function()
+	local AK47 = {"AK-47"}
+for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+for j, k in pairs(AK47) do
+if v.Name == k then
+v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+end
+end
+end
+end)
+
+M9.MouseButton1Click:Connect(function()
+	local M9 = {"M9"}
+  for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+  for j, k in pairs(M9) do
+  if v.Name == k then
+  v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+  end
+  end
+  end
+end)
+
+REM870.MouseButton1Click:Connect(function()
+	local Remington870 = {"Remington 870"}
+  for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+  for j, k in pairs(Remington870) do
+  if v.Name == k then
+  v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+  end
+  end
+  end
+end)
+
+M4A1.MouseButton1Click:Connect(function()
+	local M4A1 = {"M4A1"}
+  for i, v in pairs(game.Workspace["Prison_ITEMS"].giver:GetChildren()) do
+  for j, k in pairs(M4A1) do
+  if v.Name == k then
+  v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+  end
+  end
+  end
+end)
+
+FloorTools.MouseButton1Click:Connect(function()
+	for i, v in pairs(game.Workspace["Prison_ITEMS"].single:GetChildren()) do
+v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+end
+end)
+
+CrudeKnife.MouseButton1Click:Connect(function()
+	weaponname = "Crude Knife"
+workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS:findFirstChild(weaponname, true).ITEMPICKUP)
+end)
+
+Hammer.MouseButton1Click:Connect(function()
+	weaponname = "Hammer"
+workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS:findFirstChild(weaponname, true).ITEMPICKUP)
+end)
+
+-- Tabs
+
+Close.MouseButton1Click:Connect(function()
+	PsykeksPrisonLifeGUI:Remove()
+end)
+
+OpenButton.MouseButton1Click:Connect(function()
+	Topframe.Visible = true
+	OpenButton.Visible = false
+end)
+
+Minimize.MouseButton1Click:Connect(function()
+	Topframe.Visible = false
+	OpenButton.Visible = true
+end)
+
+ToolsTab.MouseButton1Click:Connect(function()
+	TeleportsFrame.Visible = false
+	ServerFrame.Visible = false
+	LocalPlayerFrame.Visible = false
+end)
+
+TeleportsTab.MouseButton1Click:Connect(function()
+	TeleportsFrame.Visible = true
+	ServerFrame.Visible = false
+	LocalPlayerFrame.Visible = false
+end)
+
+ServerTab.MouseButton1Click:Connect(function()
+	TeleportsFrame.Visible = false
+	ServerFrame.Visible = true
+	LocalPlayerFrame.Visible = false
+end)
+
+LocalPlayerTab.MouseButton1Click:Connect(function()
+	TeleportsFrame.Visible = false
+	ServerFrame.Visible = false
+	LocalPlayerFrame.Visible = true
+end)
+
+-- Teleports
+
+CellsTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(915.470764, 99.9892807, 2432.05225))
+end)
+
+CafeTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(933.704529, 99.9904175, 2286.63672))
+end)
+
+YardTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(800.794678, 97.9999466, 2470.81348))
+end)
+
+PoliceRoomTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(838.340271, 100.187599, 2268.896))
+end)
+
+CriminalSpawnTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-974.666565, 109.323746, 2053.41992))
+end)
+
+PrisonFrontTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(476.950165, 98.039978, 2217.396))
+end)
+
+SewerEntranceTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(915.665833, 78.7092514, 2426.23535))
+end)
+
+LoadingSpawnTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(879.430969, 27.7899876, 2349.75781))
+end)
+
+SewerExitTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(916.37085, 98.1853485, 2102.56128))
+end)
+
+ParkingGarageTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-319.392334, 118.838577, 2007.98779))
+end)
+
+HouseTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-263.885895, 54.1721878, 2479.40991))
+end)
+
+GasStationTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-492.101654, 54.3832381, 1624.75427))
+end)
+
+StoreTP.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-417.529327, 54.2003899, 1751.77258))
+end)
+
+SquadTP.MouseButton1Click:Connect(function()
+	local Cars = {"Squad"}
+  for i, v in pairs(game.Workspace["CarContainer"]:GetChildren()) do
+  for j, k in pairs(Cars) do
+  if v.Name == k then
+  v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+  wait(.1)
+  v.Parent = game.Workspace
+  end
+  end
+  end
+end)
+
+SedanTP.MouseButton1Click:Connect(function()
+	local Cars = {"Sedan"}
+  for i, v in pairs(game.Workspace["CarContainer"]:GetChildren()) do
+  for j, k in pairs(Cars) do
+  if v.Name == k then
+  v:MoveTo(game.Players.LocalPlayer.Character.Torso.Position)
+  wait(.1)
+  v.Parent = game.Workspace
+  end
+  end
+  end
+end)
+
+-- Server
+
+RemoveDoors.MouseButton1Click:Connect(function()
+	game.Workspace.Doors:Destroy()
+end)
+
+RemoveArrestCooldown.MouseButton1Click:Connect(function()
+	local mouse = game.Players.LocalPlayer:GetMouse()
+local arrestEvent = game.Workspace.Remote.arrest
+mouse.Button1Down:connect(function()
+end)
+local obj = mouse.Target
+local response = arrestEvent:InvokeServer(obj)
+end)
+
+RemoveCityBuildings.MouseButton1Click:Connect(function()
+	game.workspace.City_buildings:Remove()
+end)
+
+RemoveCafe.MouseButton1Click:Connect(function()
+	game.workspace.Prison_Cafeteria:Remove()
+end)
+
+local Plr = game:GetService("Players").LocalPlayer
+local Mouse = Plr:GetMouse()
+
+Mouse.Button1Down:connect(function()
+if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+if not Mouse.Target then return end
+Mouse.Target:Destroy()
+end)
+
+RemovePoliceRoom.MouseButton1Click:Connect(function()
+	game.workspace.Prison_Guard_Outpost:Remove()
+end)
+
+RemoveCells.MouseButton1Click:Connect(function()
+	game.workspace.Prison_Cellblock:Remove()
+end)
+
+RemovePrisonHallways.MouseButton1Click:Connect(function()
+	game.workspace.Prison_Halls:Remove()
+end)
+
+RemovePrisonTrees.MouseButton1Click:Connect(function()
+	game.workspace.Prison_Trees:Remove()
+end)
+
+RemoveSewer.MouseButton1Click:Connect(function()
+	game.workspace.Sewer:Remove()
+end)
+
+-- Local Player
+
+local p = game.Players.LocalPlayer
+
+Minus10WS.MouseButton1Click:Connect(function()
+	p.Character.Humanoid.WalkSpeed = p.Character.Humanoid.WalkSpeed - 10
+end)
+
+Minus10JP.MouseButton1Click:Connect(function()
+	p.Character.Humanoid.JumpPower = p.Character.Humanoid.JumpPower - 10
+end)
+
+Plus10WS.MouseButton1Click:Connect(function()
+	p.Character.Humanoid.WalkSpeed = p.Character.Humanoid.WalkSpeed + 10
+end)
+
+Plus10JP.MouseButton1Click:Connect(function()
+	p.Character.Humanoid.JumpPower = p.Character.Humanoid.JumpPower + 10
+end)
+
+Plus100JP.MouseButton1Click:Connect(function()
+	p.Character.Humanoid.JumpPower = p.Character.Humanoid.JumpPower + 100
+end)
+
+Plus100WS.MouseButton1Click:Connect(function()
+	p.Character.Humanoid.WalkSpeed = p.Character.Humanoid.WalkSpeed + 100
+end)
+
+Minus100JP.MouseButton1Click:Connect(function()
+	p.Character.Humanoid.JumpPower = p.Character.Humanoid.JumpPower - 100
+end)
+
+Minus100WS.MouseButton1Click:Connect(function()
+	p.Character.Humanoid.WalkSpeed = p.Character.Humanoid.WalkSpeed - 100
+end)
+
+-- Kill Aura 
+
+mainRemotes = game.ReplicatedStorage
+meleeRemote = mainRemotes['meleeEvent']
+
+killAura = false
+
+contextactionservice = game.ContextActionService
+
+function toggleKillAura(actionName, inputState, inputObject)
+print('Doing the action : ' .. actionName)
+if inputState == Enum.UserInputState.Begin then
+if killAura == true then
+killAura = false
+else
+killAura = true
+end
+end
+end
+
+contextactionservice:BindAction('ToggleKillAura', toggleKillAura, false, Enum.KeyCode.K)
+
+while wait() do
+if killAura == true then
+for _, plr in pairs (game:GetService('Players'):GetChildren()) do
+if plr.Name ~= game.Players.LocalPlayer.Name then
+meleeRemote:FireServer(plr)
+end
+end
+end
+end

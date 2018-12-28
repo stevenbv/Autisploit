@@ -1,0 +1,547 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local Label_2 = Instance.new("TextLabel")
+local Label_3 = Instance.new("TextLabel")
+local Yellow = Instance.new("TextButton")
+local black = Instance.new("TextButton")
+local blue = Instance.new("TextButton")
+local white = Instance.new("TextButton")
+local blue_2 = Instance.new("TextButton")
+local red = Instance.new("TextButton")
+local Green = Instance.new("TextButton")
+local black_2 = Instance.new("TextButton")
+local red_2 = Instance.new("TextButton")
+local chicken = Instance.new("TextButton")
+local Yellow_2 = Instance.new("TextButton")
+local Green_2 = Instance.new("TextButton")
+local Gold = Instance.new("TextButton")
+local MorphToFox = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local Penguin = Instance.new("TextButton")
+local Label_4 = Instance.new("TextLabel")
+local AFK = Instance.new("TextButton")
+
+-- Properties
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+Frame.BackgroundTransparency = 0.10000000149012
+Frame.BorderColor3 = Color3.new(1, 1, 1)
+Frame.Draggable = true
+Frame.Position = UDim2.new(0.136999995, 0, 0.0149999997, 0)
+Frame.Selectable = true
+Frame.Size = UDim2.new(0.0699999928, 372, 0.00999999978, 441)
+
+Label.Name = "Label"
+Label.Parent = Frame
+Label.BackgroundColor3 = Color3.new(0, 0, 0)
+Label.BackgroundTransparency = 1
+Label.BorderColor3 = Color3.new(1, 1, 1)
+Label.BorderSizePixel = 2
+Label.Position = UDim2.new(0.0857142806, 0, 0.669999659, 0)
+Label.Size = UDim2.new(0.0899999887, 288, -0.0299999993, 48)
+Label.Font = Enum.Font.Cartoon
+Label.Text = "Team Changes"
+Label.TextColor3 = Color3.new(1, 1, 1)
+Label.TextScaled = true
+Label.TextSize = 14
+Label.TextWrapped = true
+
+Label_2.Name = "Label"
+Label_2.Parent = Frame
+Label_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Label_2.BackgroundTransparency = 1
+Label_2.BorderColor3 = Color3.new(1, 1, 1)
+Label_2.BorderSizePixel = 2
+Label_2.Position = UDim2.new(0.115714274, 0, 0.389999926, 0)
+Label_2.Size = UDim2.new(0.0799999908, 288, -0.0299999993, 48)
+Label_2.Font = Enum.Font.Cartoon
+Label_2.Text = "Flood"
+Label_2.TextColor3 = Color3.new(1, 1, 1)
+Label_2.TextScaled = true
+Label_2.TextSize = 14
+Label_2.TextWrapped = true
+
+Label_3.Name = "Label"
+Label_3.Parent = Frame
+Label_3.BackgroundColor3 = Color3.new(0, 0, 0)
+Label_3.BackgroundTransparency = 1
+Label_3.BorderColor3 = Color3.new(1, 1, 1)
+Label_3.BorderSizePixel = 2
+Label_3.Position = UDim2.new(0.135714278, 0, 0, 0)
+Label_3.Size = UDim2.new(0, 288, 0, 48)
+Label_3.ZIndex = 6
+Label_3.Font = Enum.Font.Code
+Label_3.Text = "Build A boat For Treasure killer V3.0"
+Label_3.TextColor3 = Color3.new(1, 1, 1)
+Label_3.TextScaled = true
+Label_3.TextSize = 17
+Label_3.TextStrokeTransparency = 5
+Label_3.TextWrapped = true
+
+Yellow.Name = "Yellow"
+Yellow.Parent = Frame
+Yellow.AnchorPoint = Vector2.new(0.5, 0)
+Yellow.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Yellow.BorderColor3 = Color3.new(1, 1, 1)
+Yellow.Position = UDim2.new(0.483886153, 0, 0.480000019, 0)
+Yellow.Size = UDim2.new(0, 100, 0, 30)
+Yellow.AutoButtonColor = false
+Yellow.Font = Enum.Font.SourceSansBold
+Yellow.Text = "Flood Yellow"
+Yellow.TextColor3 = Color3.new(1, 1, 0)
+Yellow.TextSize = 14
+
+black.Name = "black"
+black.Parent = Frame
+black.AnchorPoint = Vector2.new(0.5, 0)
+black.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+black.BorderColor3 = Color3.new(1, 1, 1)
+black.Position = UDim2.new(0.191469193, 0, 0.480000019, 0)
+black.Size = UDim2.new(0, 100, 0, 30)
+black.AutoButtonColor = false
+black.Font = Enum.Font.SourceSansBold
+black.Text = "Flood Black"
+black.TextColor3 = Color3.new(0, 0, 0)
+black.TextSize = 14
+
+blue.Name = "blue"
+blue.Parent = Frame
+blue.AnchorPoint = Vector2.new(0.5, 0)
+blue.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+blue.BorderColor3 = Color3.new(1, 1, 1)
+blue.Position = UDim2.new(0.801999509, 0, 0.579999924, 0)
+blue.Size = UDim2.new(0, 100, 0, 30)
+blue.AutoButtonColor = false
+blue.Font = Enum.Font.SourceSansBold
+blue.Text = "Flood Blue"
+blue.TextColor3 = Color3.new(0.380392, 0.419608, 1)
+blue.TextSize = 14
+
+white.Name = "white"
+white.Parent = Frame
+white.AnchorPoint = Vector2.new(0.5, 0)
+white.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+white.BorderColor3 = Color3.new(1, 1, 1)
+white.Position = UDim2.new(0.180000007, 0, 0.909999907, 0)
+white.Size = UDim2.new(0, 100, 0, 30)
+white.AutoButtonColor = false
+white.Font = Enum.Font.SourceSansBold
+white.Text = "Team all white"
+white.TextColor3 = Color3.new(1, 1, 1)
+white.TextSize = 14
+
+blue_2.Name = "blue"
+blue_2.Parent = Frame
+blue_2.AnchorPoint = Vector2.new(0.5, 0)
+blue_2.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+blue_2.BorderColor3 = Color3.new(1, 1, 1)
+blue_2.Position = UDim2.new(0.791999519, 0, 0.809999704, 0)
+blue_2.Size = UDim2.new(0, 100, 0, 30)
+blue_2.AutoButtonColor = false
+blue_2.Font = Enum.Font.SourceSansBold
+blue_2.Text = "Team all Blue"
+blue_2.TextColor3 = Color3.new(0.380392, 0.419608, 1)
+blue_2.TextSize = 14
+
+red.Name = "red"
+red.Parent = Frame
+red.AnchorPoint = Vector2.new(0.5, 0)
+red.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+red.BorderColor3 = Color3.new(1, 1, 1)
+red.Position = UDim2.new(0.791999996, 0, 0.910000026, 0)
+red.Size = UDim2.new(0, 100, 0, 30)
+red.AutoButtonColor = false
+red.Font = Enum.Font.SourceSansBold
+red.Text = "Team all Red"
+red.TextColor3 = Color3.new(1, 0.168627, 0.180392)
+red.TextSize = 14
+
+Green.Name = "Green"
+Green.Parent = Frame
+Green.AnchorPoint = Vector2.new(0.5, 0)
+Green.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Green.BorderColor3 = Color3.new(1, 1, 1)
+Green.Position = UDim2.new(0.180999979, 0, 0.810000002, 0)
+Green.Size = UDim2.new(0, 100, 0, 30)
+Green.AutoButtonColor = false
+Green.Font = Enum.Font.SourceSansBold
+Green.Text = "Team all Green"
+Green.TextColor3 = Color3.new(0, 0.333333, 0)
+Green.TextSize = 14
+
+black_2.Name = "black"
+black_2.Parent = Frame
+black_2.AnchorPoint = Vector2.new(0.5, 0)
+black_2.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+black_2.BorderColor3 = Color3.new(1, 1, 1)
+black_2.Position = UDim2.new(0.473999977, 0, 0.810000122, 0)
+black_2.Size = UDim2.new(0, 100, 0, 30)
+black_2.AutoButtonColor = false
+black_2.Font = Enum.Font.SourceSansBold
+black_2.Text = "Team all Black"
+black_2.TextColor3 = Color3.new(0, 0, 0)
+black_2.TextSize = 14
+
+red_2.Name = "red"
+red_2.Parent = Frame
+red_2.AnchorPoint = Vector2.new(0.5, 0)
+red_2.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+red_2.BorderColor3 = Color3.new(1, 1, 1)
+red_2.Position = UDim2.new(0.483886153, 0, 0.579999924, 0)
+red_2.Size = UDim2.new(0, 100, 0, 30)
+red_2.AutoButtonColor = false
+red_2.Font = Enum.Font.SourceSansBold
+red_2.Text = "Flood Red"
+red_2.TextColor3 = Color3.new(1, 0.168627, 0.180392)
+red_2.TextSize = 14
+
+chicken.Name = "chicken"
+chicken.Parent = Frame
+chicken.AnchorPoint = Vector2.new(0.5, 0)
+chicken.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+chicken.BorderColor3 = Color3.new(1, 1, 1)
+chicken.Position = UDim2.new(0.800999999, 0, 0.230000004, 0)
+chicken.Size = UDim2.new(0, 100, 0, 30)
+chicken.AutoButtonColor = false
+chicken.Modal = true
+chicken.Font = Enum.Font.SourceSansBold
+chicken.Text = "Morph To Chicken"
+chicken.TextColor3 = Color3.new(1, 1, 1)
+chicken.TextSize = 14
+
+Yellow_2.Name = "Yellow"
+Yellow_2.Parent = Frame
+Yellow_2.AnchorPoint = Vector2.new(0.5, 0)
+Yellow_2.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Yellow_2.BorderColor3 = Color3.new(1, 1, 1)
+Yellow_2.Position = UDim2.new(0.473886162, 0, 0.909999609, 0)
+Yellow_2.Size = UDim2.new(0, 100, 0, 30)
+Yellow_2.AutoButtonColor = false
+Yellow_2.Font = Enum.Font.SourceSansBold
+Yellow_2.Text = "Team all Yellow"
+Yellow_2.TextColor3 = Color3.new(1, 1, 0)
+Yellow_2.TextSize = 14
+
+Green_2.Name = "Green"
+Green_2.Parent = Frame
+Green_2.AnchorPoint = Vector2.new(0.5, 0)
+Green_2.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Green_2.BorderColor3 = Color3.new(1, 1, 1)
+Green_2.Position = UDim2.new(0.801421285, 0, 0.480000019, 0)
+Green_2.Size = UDim2.new(0, 100, 0, 30)
+Green_2.AutoButtonColor = false
+Green_2.Font = Enum.Font.SourceSansBold
+Green_2.Text = "Flood Green"
+Green_2.TextColor3 = Color3.new(0, 0.333333, 0)
+Green_2.TextSize = 14
+
+Gold.Name = "Gold"
+Gold.Parent = Frame
+Gold.AnchorPoint = Vector2.new(0.5, 0)
+Gold.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Gold.BorderColor3 = Color3.new(1, 1, 1)
+Gold.Position = UDim2.new(0.490999997, 0, 0.230000004, 0)
+Gold.Size = UDim2.new(0, 100, 0, 30)
+Gold.AutoButtonColor = false
+Gold.Font = Enum.Font.SourceSansBold
+Gold.Text = "Gold!"
+Gold.TextColor3 = Color3.new(1, 1, 1)
+Gold.TextSize = 14
+
+MorphToFox.Name = "Morph To Fox"
+MorphToFox.Parent = Frame
+MorphToFox.AnchorPoint = Vector2.new(0.5, 0)
+MorphToFox.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+MorphToFox.BorderColor3 = Color3.new(1, 1, 1)
+MorphToFox.Position = UDim2.new(0.191, 0, 0.230000004, 0)
+MorphToFox.Size = UDim2.new(0, 100, 0, 30)
+MorphToFox.AutoButtonColor = false
+MorphToFox.Font = Enum.Font.SourceSansBold
+MorphToFox.Text = "Morph To Fox"
+MorphToFox.TextColor3 = Color3.new(1, 1, 1)
+MorphToFox.TextSize = 14
+
+Speed.Name = "Speed"
+Speed.Parent = Frame
+Speed.AnchorPoint = Vector2.new(0.5, 0)
+Speed.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Speed.BorderColor3 = Color3.new(1, 1, 1)
+Speed.Position = UDim2.new(0.191000193, 0, 0.319999933, 0)
+Speed.Size = UDim2.new(0, 100, -0.00999999978, 30)
+Speed.AutoButtonColor = false
+Speed.Font = Enum.Font.SourceSansBold
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.new(1, 1, 1)
+Speed.TextSize = 14
+
+Penguin.Name = "Penguin"
+Penguin.Parent = Frame
+Penguin.AnchorPoint = Vector2.new(0.5, 0)
+Penguin.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Penguin.BorderColor3 = Color3.new(1, 1, 1)
+Penguin.Position = UDim2.new(0.490999997, 0, 0.319999933, 0)
+Penguin.Size = UDim2.new(0, 100, -0.00999999978, 30)
+Penguin.AutoButtonColor = false
+Penguin.Font = Enum.Font.SourceSansBold
+Penguin.Text = "Morph To Penguin"
+Penguin.TextColor3 = Color3.new(1, 1, 1)
+Penguin.TextSize = 14
+
+
+Penguin.MouseButton1Down:connect(function()
+local A_1 = "PenguinCharacter"
+local Event = game:GetService("Workspace").ChangeCharacter
+Event:FireServer(A_1)
+end)
+
+Label_4.Name = "Label"
+Label_4.Parent = Frame
+Label_4.BackgroundColor3 = Color3.new(0, 0, 0)
+Label_4.BackgroundTransparency = 1
+Label_4.BorderColor3 = Color3.new(1, 1, 1)
+Label_4.BorderSizePixel = 2
+Label_4.Position = UDim2.new(0.115714274, 0, 0.129999995, 0)
+Label_4.Size = UDim2.new(0.0799999908, 288, -0.0299999993, 48)
+Label_4.Font = Enum.Font.Cartoon
+Label_4.Text = "LocalPlayer Stuff"
+Label_4.TextColor3 = Color3.new(1, 1, 1)
+Label_4.TextScaled = true
+Label_4.TextSize = 14
+Label_4.TextWrapped = true
+
+AFK.Name = "AFK"
+AFK.Parent = Frame
+AFK.AnchorPoint = Vector2.new(0.5, 0)
+AFK.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+AFK.BorderColor3 = Color3.new(1, 1, 1)
+AFK.Position = UDim2.new(0.800999701, 0, 0.319999933, 0)
+AFK.Size = UDim2.new(0, 100, -0.00999999978, 30)
+AFK.AutoButtonColor = false
+AFK.Font = Enum.Font.SourceSansBold
+AFK.Text = "AFK Gold Farm."
+AFK.TextColor3 = Color3.new(1, 1, 1)
+AFK.TextSize = 14
+
+
+
+Yellow.MouseButton1Down:connect(function()
+local YellowEvent = game:GetService("Workspace")["New YellerZone"].RE
+YellowEvent:FireServer()
+end)
+
+black.MouseButton1Down:connect(function()
+local BlackEvent = game:GetService("Workspace").BlackZone.RE
+BlackEvent:FireServer()
+end)
+
+blue.MouseButton1Down:connect(function()
+local BlueEvent = game:GetService("Workspace")["Really blueZone"].RE
+BlueEvent:FireServer()
+end)
+
+white.MouseButton1Down:connect(function()
+local ASD = game.Teams:GetChildren()
+for _,obj in pairs(ASD) do
+obj.Name = "Team".._
+end
+
+for i, v in pairs(game.Players:GetPlayers()) do
+
+game.Workspace.ChangeTeam:FireServer(game.Teams["Team1"].TeamColor, v)
+end
+end)
+
+blue_2.MouseButton1Down:connect(function()
+local ASD = game.Teams:GetChildren()
+for _,obj in pairs(ASD) do
+obj.Name = "Team".._
+end
+
+for i, v in pairs(game.Players:GetPlayers()) do
+
+game.Workspace.ChangeTeam:FireServer(game.Teams["Team2"].TeamColor, v)
+end
+end)
+
+red.MouseButton1Down:connect(function()
+local ASD = game.Teams:GetChildren()
+for _,obj in pairs(ASD) do
+obj.Name = "Team".._
+end
+
+for i, v in pairs(game.Players:GetPlayers()) do
+
+game.Workspace.ChangeTeam:FireServer(game.Teams["Team4"].TeamColor, v)
+end
+end)
+
+
+Green.MouseButton1Down:connect(function()
+local ASD = game.Teams:GetChildren()
+for _,obj in pairs(ASD) do
+obj.Name = "Team".._
+end
+
+for i, v in pairs(game.Players:GetPlayers()) do
+
+game.Workspace.ChangeTeam:FireServer(game.Teams["Team3"].TeamColor, v)
+end
+end)
+
+black_2.MouseButton1Down:connect(function()
+local ASD = game.Teams:GetChildren()
+for _,obj in pairs(ASD) do
+obj.Name = "Team".._
+end
+
+for i, v in pairs(game.Players:GetPlayers()) do
+
+game.Workspace.ChangeTeam:FireServer(game.Teams["Team5"].TeamColor, v)
+end
+end)
+
+
+red_2.MouseButton1Down:connect(function()
+local RedEvent = game:GetService("Workspace")["Really redZone"].RE
+RedEvent:FireServer()
+end)
+
+Green_2.MouseButton1Down:connect(function()
+local GreenEvent = game:GetService("Workspace").CamoZone.RE
+GreenEvent:FireServer()
+end)
+
+Gold.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,1360)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,1606)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,2110)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,2356)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,2860)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,3610)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,3856)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,4360)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,4606)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,5111)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,5356)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,5860)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,6106)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,6610)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,6857)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,7360)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,7606)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,8110)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,8356)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-60,-250,9523)
+wait(0,6)
+end)
+
+
+
+Yellow_2.MouseButton1Down:connect(function()
+local ASD = game.Teams:GetChildren()
+for _,obj in pairs(ASD) do
+obj.Name = "Team".._
+end
+
+for i, v in pairs(game.Players:GetPlayers()) do
+
+game.Workspace.ChangeTeam:FireServer(game.Teams["Team6"].TeamColor, v)
+end
+end)
+
+MorphToFox.MouseButton1Down:connect(function()
+local A_1 = "FoxCharacter"
+local Event = game:GetService("Workspace").ChangeCharacter
+Event:FireServer(A_1)
+end)
+
+chicken.MouseButton1Down:connect(function()
+local A_1 = "ChickenCharacter"
+local Event = game:GetService("Workspace").ChangeCharacter
+Event:FireServer(A_1)
+end)
+
+Speed.MouseButton1Down:connect(function()
+while true do
+    wait()
+    local char = game.Players.LocalPlayer.Character
+    if char:FindFirstChild("Humanoid") ~= nil then
+        char.Humanoid.WalkSpeed = 50
+    --[[else
+        print("w0t's goin onn??")]]
+    end
+end
+end)
+
+
+
+AFK.MouseButton1Down:connect(function()
+while true do
+wait(4)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,1360)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,1606)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,2110)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,2356)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,2860)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,3610)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,3856)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,4360)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,4606)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,5111)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,5356)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,5860)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,6106)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,6610)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,6857)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,7360)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,7606)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,8110)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,8356)
+wait(0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-60,-250,9523)
+wait(0,6)
+end
+end)
